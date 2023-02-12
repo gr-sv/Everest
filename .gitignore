@@ -1,0 +1,18 @@
+# MacOs
+.DS_Store
+
+# Ignore files Idea
+.idea
+
+# Ignore files with extensions
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+
+# Dependencies
+node_modules/
+
+npm-debug.*
+Thumbs.db

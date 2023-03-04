@@ -12,7 +12,7 @@
     <body>
         <header class="page-header">
 			<nav class="navigation">
-				<a class="navigation-link logo" href="index.html">MOUNTAIN</a>
+				<a class="navigation-link visually-hidden" href="index.html">MOUNTAIN</a>
 				<ul class="navigation-list navigation-list-one">
 					<li class="navigation-item">
 						<a class="navigation-link" href="#">О нас</a>
@@ -45,7 +45,7 @@
 			</nav>
 		</header>
 
-        <main>
+        <main class="page-main">
 			<h1 class="visually-hidden">MOUNTAIN. Туры с восхождением на вершины мира</h1>
 
 			<section class="slider">
@@ -168,10 +168,10 @@
 
                 <ol class="blog-list">
                     <li class="blog-item">
-                        <button class="blog-button blog-button-current" type="button">
+                        <a href="#" class="blog-link blog-current">
                             <time class="blog-time" datetime="2020-01-15">15 января, 2020</time>
                             <p class="blog-button-title">Как подготовиться к первому восхождению на вершину</p>
-                        </button>
+                        </a>
 
                         <article class="blog-post">
                             <h3 class="blog-post-title">Как подготовиться к первому восхождению на вершину</h3>
@@ -195,31 +195,31 @@
                     </li>
 
                     <li class="blog-item">
-                        <button class="blog-button" type="button">
+                        <a href="#" class="blog-link">
                             <time class="blog-time" datetime="2020-01-10">10 января, 2020</time>
                             <p class="blog-button-title">Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</p>
-                        </button>
+                        </a>
                     </li>
 
                     <li class="blog-item">
-                        <button class="blog-button" type="button">
+                        <a href="#" class="blog-link">
                             <time class="blog-time" datetime="2019-12-20">20 декабря, 2019</time>
                             <p class="blog-button-title">Особенности альпинизма на Камчатке. Все о Ключевой Сопке</p>
-                        </button>
+                        </a>
                     </li>
 
                     <li class="blog-item">
-                        <button class="blog-button" type="button">
+                        <a href="#" class="blog-link">
                             <time class="blog-time" datetime="2019-12-15">15 декабря, 2019</time>
                             <p class="blog-button-title">Что происходит с человеком на высоте более 3000 метров?</p>
-                        </button>
+                        </a>
                     </li>
 
                     <li class="blog-item">
-                        <button class="blog-button" type="button">
+                        <a href="#" class="blog-link">
                             <time class="blog-time" datetime="2019-12-15">15 декабря, 2019</time>
                             <p class="blog-button-title">Что происходит с человеком на высоте более 3000 метров?</p>
-                        </button>
+                        </a>
                     </li>
                 </ol>
 
@@ -282,6 +282,22 @@
             </section>
 		</main>
 
-        <footer></footer>
+        <footer class="page-footer">
+            <section class="footer-copyright">
+                <h2 class="visually-hidden">Копирайт</h2>
+                <p class="footer-copyright-text">Maroon</p>
+                <p class="footer-copyright-text">2020 Все права защищены</p>
+            </section>
+
+            <section class="footer-navigation">
+                <h2 class="visually-hidden">Ссылка на клавную страницу</h2>
+                <a class="footer-navigation-link visually-hidden" href="index.html">MOUNTAIN</a>
+            </section>
+
+            <section class="footer-politics">
+                <h2 class="visually-hidden">Политика конфиденциальности</h2>
+                <a class="footer-politics-link" href="#">Политика конфиденциальности</a>
+            </section>
+        </footer>
     </body>
 </html>

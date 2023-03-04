@@ -231,13 +231,16 @@
                 <p class="help-text">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур</p>
 
                 <form class="hepl-form" action="#" method="post">
-                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="name" placeholder="Имя" required>
 
-                    <input type="text" name="phone" placeholder="Телефон">
+                    <input type="tel" name="phone" placeholder="Телефон" required>
 
-                    <input type="text" name="email" placeholder="E-mail">
+                    <input type="email" name="email" placeholder="E-mail" required>
 
+                    <input type="submit" value="Отправить">
                 </form>
+
+                <p class="help-note">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
             </section>
 
 			<section class="contacts"></section>

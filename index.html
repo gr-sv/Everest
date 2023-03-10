@@ -62,7 +62,11 @@
 				<p class="about-us-text">Наша компания предоставляет все необходимое: консультацию по выбору тура,
 					перелет, визу, бронирование проживания, питание, оборудование, необходимое для восхождения,
 					опытных гидов, полное сопровождение.</p>
-				<img class="about-us-image" src="" width="" height="" alt="Карта мира, на которой отмечены самые известные вершины мира">
+				<picture>
+					<source srcset="./images/map.png 1x, ./images/map@2x.png 2x">
+					<img class="about-us-image" src="./images/map.png" srcset="./images/map@2x.png" width="815" height="375" alt="Карта мира, на которой отмечены самые известные вершины мира">
+				</picture>
+
 			</section>
 
 			<section class="popular-tours">
@@ -176,6 +180,10 @@
                         <article class="blog-post">
                             <h4 class="post-title">Как подготовиться к первому восхождению на вершину</h4>
                             <time class="post-time" datetime="2020-01-15">15 января, 2020</time>
+                            <picture>
+                                <source srcset="./images/blog.jpeg 1x, ./images/blog@2x.jpeg 2x">
+                                <img class="post-image" src="./images/blog.jpeg" srcset="./images/blog@2x.jpeg 2x" alt="Три альпиниста в горах">
+                            </picture>
 
                             <p class="post-text">Перед тем, как отправиться на покорение вершины горы, нужно не
                                 только привести в порядок свою физическую форму, но и тренировать выносливость,
@@ -241,10 +249,20 @@
                 </form>
 
                 <p class="help-note">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
+
+                <picture>
+                    <source srcset="./images/help.jpeg 1x, ./images/help@2x.jpeg 2x">
+                    <img class="help-image" src="./images/help.jpeg" srcset="./images/help@2x.jpeg 2x" alt="Горы">
+                </picture>
             </section>
 
 			<section class="contacts">
                 <h2 class="contacts-title">Контакты</h2>
+
+                <picture>
+                    <source srcset="./images/contacts_map.png 1x, ./images/contacts_map@2x.png 2x">
+                    <img class="contacts-image" src="./images/contacts_map.png" srcset="./images/contacts_map@2x.png 2x" alt="Яндекс карта с адресом">
+                </picture>
 
                 <address class="contacts-address">
                     <dl class="address-list">

@@ -37,3 +37,7 @@
     src: url(../fonts/roboto-v30-cyrillic-ext_latin-700.woff2);
     display: swap;
 }
+
+body {
+    font-family: "Roboto", "Arials", sans-serif;
+}

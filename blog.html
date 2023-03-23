@@ -11,71 +11,71 @@
     </head>
 
     <body>
-        <header class="blog-header">
+        <header class="header page__header">
 			<nav class="navigation">
-				<a class="navigation-link visually-hidden" href="index.html">MOUNTAIN</a>
+				<a class="navigation__link visually-hidden" href="index.html">MOUNTAIN</a>
 
                 <div class="burger-menu">
                     <span></span>
                 </div>
 
-				<ul class="navigation-list navigation-list-one">
-					<li class="navigation-item">
-						<a class="navigation-link" href="#">О нас</a>
+				<ul class="navigation__list navigation__list-one">
+					<li class="navigation__item">
+						<a class="navigation__link" href="#">О нас</a>
 					</li>
-					<li class="navigation-item">
-						<a class="navigation-link" href="#">Туры</a>
+					<li class="navigation__item">
+						<a class="navigation__link" href="#">Туры</a>
 					</li>
-					<li class="navigation-item">
-						<a class="navigation-link" href="#">Подбор тура</a>
+					<li class="navigation__item">
+						<a class="navigation__link" href="#">Подбор тура</a>
 					</li>
-					<li class="navigation-item">
-						<a class="navigation-link link-current" href="#">Блог</a>
+					<li class="navigation__item">
+						<a class="navigation__link" href="blog.html">Блог</a>
 					</li>
-					<li class="navigation-item">
-						<a class="navigation-link" href="#">Контакты</a>
+					<li class="navigation__item">
+						<a class="navigation__link" href="#">Контакты</a>
 					</li>
 				</ul>
 
-				<ul class="navigation-list navigation-list-two">
-					<li class="navigation-item">
-						<a class="navigation-link naviagation-phone" href="tel:+78007773325">8 (800) 777-33-25</a>
+				<ul class="navigation__list navigation__list-two">
+					<li class="navigation__item">
+						<a class="navigation__link naviagation__phone" href="tel:+78007773325">8 (800) 777-33-25</a>
 					</li>
-					<li class="navigation-item">
-						<a class="navigation-link visually-hidden" href="#">Поиск</a>
+					<li class="navigation__item">
+						<a class="navigation__link visually-hidden" href="#">Поиск</a>
 					</li>
-					<li class="navigation-item">
-						<a class="navigation-link visually-hidden" href="#">Личный кабинет</a>
+					<li class="navigation__item">
+						<a class="navigation__link visually-hidden" href="#">Личный кабинет</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 
         <main class="blog-main">
-            <h1 class="blog-main-title">Блог</h1>
+            <h1 class="title blog__title">Блог</h1>
 
-            <div class="blog-list">
-                <div class="blog-item">
-                    <a href="#" class="blog-link link-current">
-                        <h2 class="blog-title">Как подготовиться к первому восхождению на вершину</h2>
-                        <time class="blog-time" datetime="2020-01-15">15 января, 2020</time>
+            <div class="blog-menu">
+                <div class="blog-menu__item">
+                    <a href="#" class="blog-menu__link blog-menu__link_current">
+                        <h3 class="blog-menu__title">Как подготовиться к первому восхождению на вершину</h3>
+                        <time class="blog-menu__time time" datetime="2020-01-15">15 января, 2020</time>
                     </a>
 
-                    <article class="blog-post">
-                        <h3 class="post-title">Как подготовиться к первому восхождению на вершину</h3>
-                        <time class="post-time" datetime="2020-01-15">15 января, 2020</time>
+                    <article class="post">
+                        <h4 class="post__title">Как подготовиться к первому восхождению на вершину</h4>
+                        <time class="time post__time" datetime="2020-01-15">15 января, 2020</time>
                         <picture>
-                            <source srcset="./images/blog.jpeg 1x, ./images/blog@2x.jpeg 2x">
-                            <img class="post-image" src="./images/blog.jpeg" srcset="./images/blog@2x.jpeg 2x" alt="Три альпиниста в горах">
+                            <source srcset="./images/blog.jpeg 1x, ./images/blog@2x.jpeg 2x" media="(min-width: 320px)">
+                            <img class="post__image" src="./images/blog.jpeg" srcset="./images/blog@2x.jpeg 2x" alt="Три альпиниста в горах">
                         </picture>
 
-                        <p class="post-text">Перед тем, как отправиться на покорение вершины горы, нужно не
+                        <p class="post__text">Перед тем, как отправиться на покорение вершины горы, нужно не
                             только привести в порядок свою физическую форму, но и тренировать выносливость,
                             дыхательную и сердечно-сосудистую системы. Именно на них приходится максимальная
                             нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути.
                             Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
 
-                        <p class="post-text">Как должны проходить тренировки? В первую очередь, тренировки
+                        <p class="post__text">Как должны проходить тренировки? В первую очередь, тренировки
                             должны проходить постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно
                             должна увеличиваться. В случае с бегом обязательно делать это с учетом пульса. Грамотно
                             спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. При
@@ -86,53 +86,53 @@
                     </article>
                 </div>
 
-                <div class="blog-item">
-                    <a href="#" class="blog-link">
-                        <h2 class="blog-title">Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</h2>
-                        <time class="blog-time" datetime="2020-01-10">10 января, 2020</time>
+                <div class="blog-menu__item">
+                    <a href="#" class="blog-menu__link">
+                        <h3 class="blog-menu__title">Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</h3>
+                        <time class="time blog-menu__time" datetime="2020-01-10">10 января, 2020</time>
                     </a>
                 </div>
 
-                 <div class="blog-item">
-                    <a href="#" class="blog-link">
-                        <h2 class="blog-title">Особенности альпинизма на Камчатке. Все о Ключевой Сопке</h2>
-                        <time class="blog-time" datetime="2019-12-20">20 декабря, 2019</time>
+                <div class="blog-menu__item">
+                    <a href="#" class="blog-menu__link">
+                        <h3 class="blog-menu__title">Особенности альпинизма на Камчатке. Все о Ключевой Сопке</h3>
+                        <time class="time blog-menu__time" datetime="2019-12-20">20 декабря, 2019</time>
                     </a>
                 </div>
 
-                <div class="blog-item">
-                    <a href="#" class="blog-link">
-                        <h2 class="blog-title">Что происходит с человеком на высоте более 3000 метров?</h2>
-                        <time class="blog-time" datetime="2019-12-15">15 декабря, 2019</time>
+                <div class="blog-menu__item">
+                    <a href="#" class="blog-menu__link">
+                        <h3 class="blog-menu__title">Что происходит с человеком на высоте более 3000 метров?</h3>
+                        <time class="time blog-menu__time" datetime="2019-12-15">15 декабря, 2019</time>
                     </a>
                 </div>
 
-                <div class="blog-item">
-                    <a href="#" class="blog-link">
-                        <h2 class="blog-title">Что происходит с человеком на высоте более 3000 метров?</h2>
-                        <time class="blog-time" datetime="2019-12-15">15 декабря, 2019</time>
+                <div class="blog-menu__item">
+                    <a href="#" class="blog-menu__link">
+                        <h3 class="blog-menu__title">Что происходит с человеком на высоте более 3000 метров?</h3>
+                        <time class="time blog-menu__time" datetime="2019-12-15">15 декабря, 2019</time>
                     </a>
                 </div>
             </div>
 
-            <a class="blog-link button button-orange" href="#">Больше постов</a>
+            <a class="button blog__link button_orange" href="./blog.html">Читать все новости</a>
         </main>
 
-        <footer class="blog-footer">
-            <section class="footer-copyright">
+        <footer class="footer page-footer">
+            <section class="copyright">
                 <h2 class="visually-hidden">Копирайт</h2>
-                <a class="footer-copyright-link" href="#">Maroon</a>
-                <p class="footer-copyright-text">&copy; 2020 Все права защищены</p>
+                <a class="copyright__link" href="#">Maroon</a>
+                <p class="copyright__text">&copy; 2020 Все права защищены</p>
             </section>
 
             <section class="footer-navigation">
                 <h2 class="visually-hidden">Ссылка на клавную страницу</h2>
-                <a class="footer-navigation-link visually-hidden" href="index.html">MOUNTAIN</a>
+                <a class="footer-navigation__link" href="index.html">MOUNTAIN</a>
             </section>
 
-            <section class="footer-politics">
+            <section class="politics">
                 <h2 class="visually-hidden">Политика конфиденциальности</h2>
-                <a class="footer-politics-link" href="#">Политика конфиденциальности</a>
+                <a class="politics__link" href="#">Политика конфиденциальности</a>
             </section>
         </footer>
     </body>

@@ -268,34 +268,40 @@
             </section>
 
 			<section class="contacts">
-                <h2 class="contacts-title">Контакты</h2>
+                <h2 class="contacts__title title">Контакты</h2>
 
                 <picture>
                     <source srcset="./images/contacts_map.png 1x, ./images/contacts_map@2x.png 2x" media="(min-width: 320px)">
-                    <img class="contacts-image" src="./images/contacts_map.png" srcset="./images/contacts_map@2x.png 2x" alt="Яндекс карта с адресом">
+                    <img class="contacts__image" src="./images/contacts_map.png" srcset="./images/contacts_map@2x.png 2x" alt="Яндекс карта с адресом">
                 </picture>
 
-                <address class="contacts-address">
-                    <div class="address-place">
-                        <p class="address-title">Адрес:</p>
-                        <p class="address-value">Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+                <address class="address">
+                    <div class="address__place">
+                        <p class="address__title">Адрес:</p>
+                        <p class="address__text">Санкт-Петербург, ул. Большая Конюшенная, 19</p>
                     </div>
 
-                    <div class="address-phone">
-                        <p class="address-title">Телефон:</p>
-                        <a class="address-phone-number" href="tel:+78007773325">8 (800) 777-33-25</a>
+                    <div class="address__phone">
+                        <p class="address__title">Телефон:</p>
+                        <a class="address__text address__link" href="tel:+78007773325">8 (800) 777-33-25</a>
                     </div>
 
-                    <div class="address-mail">
-                        <p class="address-title">E-mail:</p>
-                        <a class="address-email" href="mailto:info@mountain.ru">info@mountain.ru</a>                        >
+                    <div class="address__mail">
+                        <p class="address__title">E-mail:</p>
+                        <a class="address__text address__link" href="mailto:info@mountain.ru">info@mountain.ru</a>                        >
                     </div>
 
-                    <div class="address-social">
-                        <p class="address-title">Социальные сети:</p>
-                        <a class="social-link visually-hidden" href="#">Facebook</a>
-                        <a class="social-link visually-hidden" href="#">Instagram</a>
-                        <a class="social-link visually-hidden" href="#">Twitter</a>
+                    <div class="address__social">
+                        <p class="address__title">Социальные сети:</p>
+                        <a class="address__link" href="#">
+							<span class="visually-hidden">Facebook</span>
+						</a>
+                        <a class="address__link" href="#">
+							<span class="visually-hidden">Instagram</span>
+						</a>
+                        <a class="address__link" href="#">
+							<span class="visually-hidden">Twitter</span>
+						</a>
                     </div>
                 </address>
             </section>

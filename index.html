@@ -39,7 +39,7 @@
 
 				<ul class="navigation__list navigation__list-two">
 					<li class="navigation__item">
-						<a class="navigation__link naviagation__phone" href="tel:+78007773325">8 (800) 777-33-25</a>
+						<a class="navigation__link navigation__phone" href="tel:+78007773325">8 (800) 777-33-25</a>
 					</li>
 					<li class="navigation__item">
 						<a class="navigation__link visually-hidden" href="#">Поиск</a>
@@ -76,7 +76,7 @@
 
 			<section class="popular-tours">
 				<h2 class="title popular-tours__title">Популярные туры</h2>
-				<div class="mountains__list">
+				<div class="mountains">
 					<div class="mountain">
 						<h3 class="mountain__title">Белуха</h3>
 						<p class="mountain__country">Россия</p>
@@ -114,17 +114,13 @@
 					</div>
 				</div>
 
-				<div class="buttons__list">
-					<div class="buttons__item">
-						<button class="buttons__previous" type="button">
-							<span class="visually-hidden">Предыдущий слайд</span>
-						</button>
-					</div>
-					<div class="buttons__item">
-						<button class="buttons__next" type="button">
-							<span class="visually-hidden">Следующий слайд</span>
-						</button>
-					</div>
+				<div class="buttons">
+					<button class="buttons__previous" type="button">
+						<span class="visually-hidden">Предыдущий слайд</span>
+					</button>
+					<button class="buttons__next" type="button">
+						<span class="visually-hidden">Следующий слайд</span>
+					</button>
 				</div>
 			</section>
 
@@ -179,7 +175,7 @@
                     <div class="blog-menu__item">
                         <a href="#" class="blog-menu__link blog-menu__link_current">
                             <h3 class="blog-menu__title">Как подготовиться к первому восхождению на вершину</h3>
-                            <time class="blog-menu__time time" datetime="2020-01-15">15 января, 2020</time>
+                            <time class="time blog-menu__time" datetime="2020-01-15">15 января, 2020</time>
                         </a>
 
                         <article class="post">
@@ -256,7 +252,7 @@
                         <input class="help__field" type="email" name="email" placeholder="E-mail" required>
                     </label>
 
-                    <button class="help__button button button_orange" type="button">Отправить</button>
+                    <button class="button help__button button_orange" type="button">Отправить</button>
                 </form>
 
                 <p class="help__note">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>

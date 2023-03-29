@@ -1,5 +1,14 @@
 /* Header */
 
-.page__header {
+.header {
     background-color: #E6E8EA;
+}
+
+/* Navigation */
+
+.navigation__link {
+    color: #fcfcfc;
+    background-color: #E6E8EA;
+    text-align: center;
+    text-decoration: none;
 }

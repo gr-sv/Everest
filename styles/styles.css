@@ -45,3 +45,12 @@ body {
     color: #061B28;
     background-color: #FFFFFF;
 }
+
+.title {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    color: #061B28;
+    background-color: #FFFFFF;
+}

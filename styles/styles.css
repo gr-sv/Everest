@@ -39,5 +39,9 @@
 }
 
 body {
-    font-family: "Roboto", "Arials", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #061B28;
+    background-color: #FFFFFF;
 }

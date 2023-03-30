@@ -1,15 +1,17 @@
-/* Header */
+/* Promo */
 
-.header {
+.promo {
     background-color: #E6E8EA;
 }
 
-/* Navigation */
+.promo__title {
+    font-size: 98px;
+    line-height: 145px;
+    color: #FCFCFC;
+}
 
-.navigation__link {
-    color: #fcfcfc;
+.promo__link {
     background-color: #E6E8EA;
     text-align: center;
     text-decoration: none;
 }
-

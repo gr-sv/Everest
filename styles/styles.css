@@ -38,6 +38,8 @@
     display: swap;
 }
 
+/* Base styles */
+
 body {
     margin: 0 auto;
     font-family: "Roboto", "Arial", sans-serif;
@@ -54,13 +56,11 @@ body {
     font-size: 52px;
     line-height: 60px;
     color: #061B28;
-    background-color: #FFFFFF;
 }
 
 .button {
     font-weight: 500;
     color: #FCFCFC;
-    background-color: #061B28;
 }
 
 .time {

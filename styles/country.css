@@ -2,4 +2,33 @@
 
 .country {
     background-color: #061B28;
+    background-image: url(../images/background_country.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FCFCFC;
+}
+
+.country__title {
+    color: #FCFCFC;
+}
+
+/* Mountains__table */
+
+.mountains-table__cell {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.mountains-table__title {
+    font-weight: 400;
+    color: #A7AEB4;
+}
+
+.country__link {
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
 }

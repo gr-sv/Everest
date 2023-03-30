@@ -1,8 +1,33 @@
 /* Popular-tours */
 
+.mountain {
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #E6E8EA;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mountain-one {
+    background-image: url("../images/tours_1.jpeg");
+}
+
+.mountain-two {
+    background-image: url("../images/tours_2.jpeg");
+}
+
+.mountain-three {
+    background-image: url("../images/tours_3.jpeg");
+}
+
 .mountain__title {
     font-family: "Oswald", "Arial", sans-serif;
     font-weight: 500;
     font-size: 26px;
     line-height: 30px;
+}
+
+.mountain__country {
+    font-size: 16px;
+    line-height: 18px;
 }

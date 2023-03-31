@@ -63,6 +63,11 @@ body {
     color: #FCFCFC;
 }
 
+.button_orange {
+    line-height: 22px;
+    background-color: #EC5118;
+}
+
 .time {
     font-size: 14px;
     line-height: 20px;

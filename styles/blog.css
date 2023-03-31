@@ -20,6 +20,11 @@
     color: #FCFCFC;
 }
 
+.blog__link {
+    text-align: center;
+    text-decoration: none;
+}
+
 /* Post */
 
 .post__title  {

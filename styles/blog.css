@@ -1,0 +1,33 @@
+/* Blog */
+
+.blog-menu__link {
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.blog-menu__link_current {
+    background-color: #061B28;
+}
+
+.blog-menu__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #061B28;
+}
+
+.blog-menu__link_current .blog-menu__title {
+    color: #FCFCFC;
+}
+
+/* Post */
+
+.post__title  {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.post__text {
+    line-height: 24px;
+}

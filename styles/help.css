@@ -1,0 +1,28 @@
+/* Help */
+
+.help {
+    color: #FCFCFC;
+    background-color: #061B28;
+}
+
+.help__title {
+    color: #FCFCFC;
+}
+
+.help__text {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.help__field {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #061B28;
+}
+
+.help__note {
+    font-size: 14px;
+    line-height: 20px;
+}

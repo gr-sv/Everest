@@ -1,2 +1,22 @@
 /* Contacts */
 
+.address {
+    font-style: normal;
+}
+
+.address__title {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.address__text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.address__link {
+    color: #061B28;
+    text-align: center;
+    text-decoration: none;
+}

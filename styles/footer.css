@@ -1,2 +1,20 @@
 /* Footer */
 
+.footer {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FCFCFC;
+    background-color: #061B28;
+}
+
+.copyright__link {
+    color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.politics__link {
+    color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}

@@ -27,3 +27,11 @@
     text-align: center;
     text-decoration: none;
 }
+
+/* Blog.html */
+
+.blog-main__title {
+    font-size: 98px;
+    line-height: 145px;
+    color: #FCFCFC;
+}

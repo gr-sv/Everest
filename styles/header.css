@@ -15,3 +15,15 @@
     text-decoration: none;
 }
 
+/* Promo */
+
+.promo__title {
+    font-size: 98px;
+    line-height: 145px;
+    color: #FCFCFC;
+}
+
+.promo__link {
+    text-align: center;
+    text-decoration: none;
+}

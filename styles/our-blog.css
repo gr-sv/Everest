@@ -1,0 +1,24 @@
+/* Our-blog */
+
+/* Post */
+
+.post {
+    line-height: 24px;
+}
+
+.post__title  {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.post__title-inner {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.post__link {
+    color: #061B28;
+    text-align: center;
+    text-decoration: none;
+}

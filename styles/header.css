@@ -1,6 +1,7 @@
 /* Header */
 
 .header {
+    display: grid;
     background-color: #E6E8EA;
     background-image: url(../images/background_header.jpeg);
     background-repeat: no-repeat;

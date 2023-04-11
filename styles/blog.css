@@ -1,5 +1,9 @@
 /* Blog */
 
+.blog {
+    display: grid;
+}
+
 .blog-menu__link {
     background-color: #FFFFFF;
     text-decoration: none;

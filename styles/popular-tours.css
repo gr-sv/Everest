@@ -1,5 +1,9 @@
 /* Popular-tours */
 
+.popular-tours {
+    display: grid;
+}
+
 .mountain {
     font-size: 18px;
     line-height: 21px;

@@ -59,7 +59,8 @@ body {
 
 .wrapper {
     width: 1170px;
-    margin: 0 auto;
+    justify-self: center;
+    /* margin: 0 auto; */
 }
 
 .title {

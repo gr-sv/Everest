@@ -47,14 +47,19 @@ html {
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    margin: 0;
     min-height: 100%;
+    margin: 0;
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #061B28;
     background-color: #FFFFFF;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .title {

@@ -2,9 +2,23 @@
 
 .about-us {
     display: grid;
+    justify-content: center;
+}
+
+.about-us-wrapper {
+    width: 1285px;
+    display: grid;
+    grid-template-columns: 472px auto;
+    grid-template-rows: repeat(3, auto);
 }
 
 .about-us__text {
     font-size: 18px;
     line-height: 27px;
+}
+
+.about-us__picture {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    align-self: center;
 }

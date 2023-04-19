@@ -1,0 +1,6 @@
+/* blog-page__main */
+
+.blog-page__main {
+    display: grid;
+    justify-content: center;
+}

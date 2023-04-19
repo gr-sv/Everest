@@ -5,6 +5,15 @@
     justify-content: center;
 }
 
+.popular-tours-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+
+.popular-tours__title {
+    justify-self: center;
+}
+
 .mountain {
     font-size: 18px;
     line-height: 21px;
@@ -35,4 +44,8 @@
 .mountain__country {
     font-size: 16px;
     line-height: 18px;
+}
+
+.buttons {
+    justify-self: end;
 }

@@ -1,6 +1,8 @@
 /* Country */
 
 .country {
+    display: grid;
+    justify-content: center;
     background-color: #061B28;
     background-image: url(../images/background_country.png);
     background-repeat: no-repeat;
@@ -8,6 +10,10 @@
     font-size: 18px;
     line-height: 25px;
     color: #FCFCFC;
+}
+
+.country-wrapper {
+    width: 830px;
 }
 
 .country__title {

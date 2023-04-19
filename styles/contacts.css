@@ -1,5 +1,10 @@
 /* Contacts */
 
+.contacts {
+    display: grid;
+    justify-content: center;
+}
+
 .address {
     font-style: normal;
 }

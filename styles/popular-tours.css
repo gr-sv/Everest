@@ -2,6 +2,7 @@
 
 .popular-tours {
     display: grid;
+    justify-content: center;
 }
 
 .mountain {

@@ -2,6 +2,7 @@
 
 .blog {
     display: grid;
+    justify-content: center;
 }
 
 .blog-menu__link {

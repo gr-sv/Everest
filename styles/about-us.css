@@ -1,5 +1,9 @@
 /* About-us */
 
+.about-us {
+    display: grid;
+}
+
 .about-us__text {
     font-size: 18px;
     line-height: 27px;

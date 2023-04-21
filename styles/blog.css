@@ -5,6 +5,15 @@
     justify-content: center;
 }
 
+.blog-wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.blog__title {
+    justify-self: center;
+}
+
 .blog-menu__link {
     background-color: #FFFFFF;
     text-decoration: none;

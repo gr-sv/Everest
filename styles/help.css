@@ -1,6 +1,8 @@
 /* Help */
 
 .help {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     color: #FCFCFC;
     background-color: #061B28;
 }

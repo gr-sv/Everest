@@ -254,28 +254,30 @@
             </section>
 
 			<section class="help">
-                <h2 class="title help__title">Нужна помощь с выбором тура?</h2>
-                <p class="help__text">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур</p>
+                <div class="help-wrapper">
+                    <h2 class="title help__title">Нужна помощь с выбором тура?</h2>
+                    <p class="help__text">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур</p>
 
-                <form class="help__form" action="#" method="post">
-                    <label>
-                        <input class="help__field" type="text" name="name" placeholder="Имя" required>
-                    </label>
+                    <form class="help__form" action="#" method="post">
+                        <label>
+                            <input class="help__field" type="text" name="name" placeholder="Имя" required>
+                        </label>
 
-                    <label>
-                        <input class="help__field" type="tel" name="phone" placeholder="Телефон" required>
-                    </label>
+                        <label>
+                            <input class="help__field" type="tel" name="phone" placeholder="Телефон" required>
+                        </label>
 
-                    <label>
-                        <input class="help__field" type="email" name="email" placeholder="E-mail" required>
-                    </label>
+                        <label>
+                            <input class="help__field" type="email" name="email" placeholder="E-mail" required>
+                        </label>
 
-                    <button class="button help__button button_orange" type="button">Отправить</button>
-                </form>
+                        <button class="button help__button button_orange" type="button">Отправить</button>
+                    </form>
 
-                <p class="help__note">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
+                    <p class="help__note">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
+                </div>
 
-                <picture>
+                <picture class="help__picture">
                     <source srcset="./images/help.jpeg 1x, ./images/help@2x.jpeg 2x" media="(min-width: 320px)">
                     <img class="help__image" src="./images/help.jpeg" srcset="./images/help@2x.jpeg 2x" alt="Горы">
                 </picture>

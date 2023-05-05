@@ -42,6 +42,7 @@
 /* Blog.html */
 
 .blog-page__title {
+    justify-self: center;
     font-size: 98px;
     line-height: 145px;
     color: #FCFCFC;

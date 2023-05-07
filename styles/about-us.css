@@ -6,6 +6,7 @@
 }
 
 .about-us-wrapper {
+    padding-left: 115px;
     width: 1285px;
     display: grid;
     grid-template-columns: 472px auto;

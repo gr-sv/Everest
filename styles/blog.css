@@ -7,10 +7,12 @@
 
 .blog-wrapper {
     display: grid;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
 }
 
 .blog__title {
+    grid-column: 1 / -1;
     justify-self: center;
 }
 

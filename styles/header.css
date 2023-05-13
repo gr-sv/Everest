@@ -38,6 +38,9 @@
 
 .promo {
     justify-self: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
 }
 
 .promo__title {

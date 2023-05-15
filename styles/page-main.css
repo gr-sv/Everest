@@ -1,0 +1,6 @@
+/* page-main */
+
+.page-main {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+}

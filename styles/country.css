@@ -16,10 +16,10 @@
     width: 830px;
     display: grid;
     grid-template-rows: repeat(4, auto);
+    justify-items: center;
 }
 
 .country__title {
-    justify-self: center;
     color: #FCFCFC;
 }
 
@@ -31,6 +31,17 @@
 }
 
 /* Mountains__table */
+
+.mountains-table {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.mountains-table__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 99px;
+}
 
 .mountains-table__cell {
     font-weight: 500;

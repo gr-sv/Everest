@@ -7,7 +7,7 @@
 
 .blog-wrapper {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 700px;
     grid-template-rows: auto auto;
     column-gap: 70px;
 }
@@ -15,6 +15,14 @@
 .blog__title {
     grid-column: 1 / -1;
     justify-self: center;
+}
+
+/* blog-menu */
+
+.blog-menu {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    align-items: center;
 }
 
 .blog-menu__link {
@@ -42,12 +50,25 @@
     text-decoration: none;
 }
 
-/* Post */
+/* Posts */
+
+.post {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+}
 
 .post__title  {
     font-weight: 700;
     font-size: 22px;
     line-height: 31px;
+}
+
+.post__time {
+    grid-row: 2 / 3;
+}
+
+.post__picture {
+    grid-row: 1 / 2;
 }
 
 .post__text {

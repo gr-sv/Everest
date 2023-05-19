@@ -5,6 +5,13 @@
     grid-template-rows: repeat(3, auto);
 }
 
+/* Posts */
+
+.posts {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 /* Post */
 
 .post {

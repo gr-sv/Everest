@@ -14,14 +14,26 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.copyright {
+    justify-self: start;
+}
+
 .copyright__link {
     color: #FCFCFC;
     text-align: center;
     text-decoration: none;
 }
 
+.footer-navigation {
+    justify-self: center;
+}
+
 .footer-navigation__link {
     text-decoration: none;
+}
+
+.politics {
+    justify-self: end;
 }
 
 .politics__link {

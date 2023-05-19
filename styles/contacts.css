@@ -19,6 +19,9 @@
 
 .address {
     font-style: normal;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 40px;
 }
 
 .address__title {

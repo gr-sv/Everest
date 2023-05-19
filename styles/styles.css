@@ -55,6 +55,7 @@ body {
     line-height: 19px;
     color: #061B28;
     background-color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 .wrapper {

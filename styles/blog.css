@@ -26,6 +26,7 @@
 }
 
 .blog-menu__link {
+    display: block;
     background-color: #FFFFFF;
     text-decoration: none;
 }

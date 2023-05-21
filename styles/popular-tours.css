@@ -70,6 +70,8 @@
 
 .mountain__features {
     grid-area: features;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
 }
 
 .mountain__level {

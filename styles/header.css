@@ -29,7 +29,15 @@
     column-gap: 30px;
 }
 
+.navigation__list-two {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    column-gap: 30px;
+}
+
 .navigation__link {
+    align-self: center;
     color: #fcfcfc;
     text-align: center;
     text-decoration: none;

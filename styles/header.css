@@ -22,6 +22,13 @@
     column-gap: 99px;
 }
 
+.navigation__list-one {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: start;
+    column-gap: 30px;
+}
+
 .navigation__link {
     color: #fcfcfc;
     text-align: center;

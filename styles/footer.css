@@ -12,16 +12,29 @@
 .footer-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 
 .copyright {
     justify-self: start;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5px;
 }
 
 .copyright__link {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: center;
     color: #FCFCFC;
     text-align: center;
     text-decoration: none;
+}
+
+.copyright__text {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
 }
 
 .footer-navigation {

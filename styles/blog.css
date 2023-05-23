@@ -26,7 +26,9 @@
 }
 
 .blog-menu__link {
-    display: block;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
     background-color: #FFFFFF;
     text-decoration: none;
 }
@@ -44,6 +46,10 @@
 
 .blog-menu__link_current .blog-menu__title {
     color: #FCFCFC;
+}
+
+.blog-menu__time {
+    order: -1;
 }
 
 .blog__link {

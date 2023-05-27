@@ -29,13 +29,6 @@
     font-size: 19px;
 }
 
-.post__link {
-    justify-self: start;
-    color: #061B28;
-    text-align: center;
-    text-decoration: none;
-}
-
 /* Post-one */
 
 .post-one {
@@ -54,6 +47,30 @@
     display: grid;
     grid-template-rows: auto auto;
 }
+
+/* Post-two */
+
+.post-two {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr auto;
+}
+
+.post-two .text-wrapper {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+}
+
+.post__link {
+    grid-column: 1/-1;
+    justify-self: start;
+    color: #061B28;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 
 /* Pagination */
 

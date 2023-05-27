@@ -37,3 +37,8 @@
     text-align: center;
     text-decoration: none;
 }
+
+.pagination {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}

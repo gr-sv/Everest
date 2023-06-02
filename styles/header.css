@@ -10,6 +10,7 @@
 }
 
 .header-wrapper {
+    padding-top: 30px;
     display: grid;
     grid-template-rows: repeat(3, auto);
 }
@@ -32,7 +33,7 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     justify-content: start;
-    column-gap: 30px;
+    column-gap: 10px;
 }
 
 .navigation__list-two {
@@ -44,7 +45,6 @@
 
 .navigation__link {
     display: block;
-    margin-top: 30px;
     padding: 17px 10px;
     align-self: center;
     color: #fcfcfc;
@@ -65,21 +65,27 @@
 /* Promo */
 
 .promo {
+    padding-top: 170px;
+    padding-bottom: 204px;
     justify-self: center;
     display: grid;
     grid-template-rows: auto auto;
+    row-gap: 24px;
     justify-items: center;
 }
 
 .promo__title {
+    margin: 0;
     font-size: 98px;
     line-height: 145px;
     color: #FCFCFC;
 }
 
 .promo__link {
+    padding: 11px 42px;
     text-align: center;
     text-decoration: none;
+    border: 2px solid #FCFCFC;
 }
 
 /* Blog.html */

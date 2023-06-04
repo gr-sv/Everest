@@ -7,15 +7,22 @@
     padding-bottom: 140px;
 }
 
+.about-us__title {
+    margin-bottom: 23px;
+}
+
 .about-us-wrapper {
     padding-left: 115px;
     width: 1285px;
     display: grid;
     grid-template-columns: 472px auto;
     grid-template-rows: repeat(3, auto);
+    row-gap: 27px;
 }
 
 .about-us__text {
+    margin: 0;
+    width: 350px;
     font-size: 18px;
     line-height: 27px;
 }

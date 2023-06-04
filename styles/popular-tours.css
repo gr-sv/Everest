@@ -105,4 +105,7 @@
 
 .buttons {
     justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
 }

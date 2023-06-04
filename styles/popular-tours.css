@@ -8,9 +8,11 @@
 .popular-tours-wrapper {
     display: grid;
     grid-template-rows: repeat(3, auto);
+    row-gap: 40px;
 }
 
 .popular-tours__title {
+    margin-bottom: 40px;
     justify-self: center;
 }
 

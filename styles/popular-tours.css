@@ -54,6 +54,7 @@
 
 .mountain__title {
     grid-area: title;
+    margin: 0;
     font-family: "Oswald", "Arial", sans-serif;
     font-weight: 500;
     font-size: 26px;
@@ -62,12 +63,14 @@
 
 .mountain__country {
     grid-area: country;
+    margin: 0;
     font-size: 16px;
     line-height: 18px;
 }
 
 .mountain__button {
     grid-area: button;
+    padding: 0;
 }
 
 .mountain__features {
@@ -76,8 +79,21 @@
     grid-template-columns: repeat(3, auto);
 }
 
+.mountain__height {
+    margin: 0;
+}
+
+.mountain__time {
+    margin: 0;
+}
+
+.mountain__price {
+    margin: 0;
+}
+
 .mountain__level {
     grid-area: level;
+    margin: 0;
 }
 
 .buttons {

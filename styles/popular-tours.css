@@ -26,10 +26,11 @@
 
 .mountain {
     display: grid;
-    grid-template-columns: 1fr 75px;
-    grid-template-rows: auto 1fr auto auto;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 100px auto auto auto;
     grid-template-areas:
         "country  button"
+        ".        ."
         "title    ."
         "features ."
         "level    .";
@@ -38,6 +39,7 @@
     background-color: #E6E8EA;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 40px;
 }
 
 .mountain-one {
@@ -55,6 +57,7 @@
 .mountain__title {
     grid-area: title;
     margin: 0;
+    margin-bottom: 25px;
     font-family: "Oswald", "Arial", sans-serif;
     font-weight: 500;
     font-size: 26px;
@@ -64,6 +67,7 @@
 .mountain__country {
     grid-area: country;
     margin: 0;
+    margin-bottom: 37px;
     font-size: 16px;
     line-height: 18px;
 }
@@ -71,10 +75,13 @@
 .mountain__button {
     grid-area: button;
     padding: 0;
+    justify-self: end;
+    align-self: start;
 }
 
 .mountain__features {
     grid-area: features;
+    margin-bottom: 24px;
     display: grid;
     grid-template-columns: repeat(3, auto);
 }

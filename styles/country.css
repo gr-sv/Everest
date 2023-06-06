@@ -10,6 +10,8 @@
     font-size: 18px;
     line-height: 25px;
     color: #FCFCFC;
+    padding-top: 96px;
+    padding-bottom: 100px;
 }
 
 .country-wrapper {
@@ -20,7 +22,15 @@
 }
 
 .country__title {
+    margin-bottom: 21px;
     color: #FCFCFC;
+}
+
+.country__text {
+    margin: 0;
+    margin-bottom: 60px;
+    width: 243px;
+    text-align: center;
 }
 
 .country__link {

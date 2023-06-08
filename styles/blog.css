@@ -3,6 +3,8 @@
 .blog {
     display: grid;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .blog-wrapper {
@@ -27,6 +29,7 @@
 }
 
 .blog-menu__link {
+    padding: 30px;
     display: grid;
     grid-template-rows: auto auto;
     row-gap: 20px;
@@ -39,6 +42,7 @@
 }
 
 .blog-menu__title {
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -54,6 +58,7 @@
 }
 
 .blog__link {
+    padding: 15px 125px;
     text-align: center;
     text-decoration: none;
 }

@@ -7,6 +7,7 @@
     line-height: 18px;
     color: #FCFCFC;
     background-color: #061B28;
+    padding: 43px 0;
 }
 
 .footer-wrapper {
@@ -35,6 +36,7 @@
 .copyright__text {
     grid-column: 2 / -1;
     grid-row: 2 / 3;
+    margin: 0;
 }
 
 .footer-navigation {

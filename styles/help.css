@@ -32,7 +32,7 @@
     margin-bottom: 22px;
     display: grid;
     grid-template-rows: repeat(4, auto);
-    row-gap: 50px;
+    row-gap: 35px;
     width: 525px;
 }
 
@@ -42,10 +42,18 @@
     font-size: 16px;
     line-height: 24px;
     background-color: #061B28;
+    width: 525px;
+    box-sizing: border-box;
+}
+
+.help__button {
+    margin-top: 10px;
+    padding: 14px 0;
 }
 
 .help__note {
     margin: 0;
+    width: 393px;
     font-size: 14px;
     line-height: 20px;
 }

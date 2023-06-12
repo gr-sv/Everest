@@ -15,7 +15,7 @@
 }
 
 .blog__title {
-    margin-bottom: 80px;
+    margin-bottom: 76px;
     grid-column: 1 / -1;
     justify-self: center;
 }
@@ -29,10 +29,10 @@
 }
 
 .blog-menu__link {
-    padding: 30px;
+    padding: 27px 30px;
     display: grid;
     grid-template-rows: auto auto;
-    row-gap: 20px;
+    row-gap: 14px;
     background-color: #FFFFFF;
     text-decoration: none;
 }
@@ -58,9 +58,11 @@
 }
 
 .blog__link {
-    padding: 15px 125px;
+    padding: 14px 125px;
     text-align: center;
     text-decoration: none;
+	align-self: start;
+	margin-top: 30px;
 }
 
 /* Posts */
@@ -72,7 +74,7 @@
 
 .post__title  {
     margin: 0;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 22px;
     line-height: 31px;
@@ -94,7 +96,7 @@
 
 .post__text {
     margin: 0;
-    width: 683px;
+    width: 682px;
     line-height: 24px;
 }
 

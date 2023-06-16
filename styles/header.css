@@ -91,6 +91,8 @@
 /* Blog.html */
 
 .blog-page__title {
+    padding-top: 170px;
+    padding-bottom: 273px;
     justify-self: center;
     font-size: 98px;
     line-height: 145px;

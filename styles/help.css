@@ -17,7 +17,7 @@
 }
 
 .help__title {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
     color: #FCFCFC;
 }
 
@@ -37,6 +37,7 @@
 }
 
 .help__field {
+    padding-bottom: 11px;
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -44,11 +45,14 @@
     background-color: #061B28;
     width: 525px;
     box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #45545E;
 }
 
 .help__button {
     margin-top: 10px;
     padding: 14px 0;
+    border: none;
 }
 
 .help__note {

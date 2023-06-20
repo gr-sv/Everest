@@ -2,8 +2,10 @@
 
 .our-blog {
     padding-top: 140px;
+    padding-bottom: 100px;
     display: grid;
     grid-template-rows: repeat(3, auto);
+    row-gap: 40px;
 }
 
 /* Posts */
@@ -18,18 +20,14 @@
 
 .post {
     line-height: 24px;
+    row-gap: 40px;
 }
 
 .post__title  {
     margin: 0;
-    margin-bottom: 40px;
     font-weight: 700;
     font-size: 22px;
     line-height: 31px;
-}
-
-.post__time {
-    margin-bottom: 20px;
 }
 
 .post__title,
@@ -38,8 +36,14 @@
 }
 
 .post__title-inner {
+    margin: 0;
+    margin-top: 10px;
     font-weight: 500;
     font-size: 19px;
+}
+
+.text-wrapper {
+    row-gap: 24px;
 }
 
 .post__text {
@@ -58,14 +62,12 @@
 .post-one .post__picture {
     grid-column: 1 / -1;
     justify-self: center;
-    margin-bottom: 40px;
 }
 
 .post-one .text-wrapper {
     grid-column: 1 / -1;
     display: grid;
     grid-template-rows: auto auto;
-    row-gap: 24px;
 }
 
 .post__image {
@@ -86,10 +88,16 @@
     grid-template-rows: repeat(10, auto);
 }
 
+.post__list {
+    margin: 0;
+    padding-left: 18px;
+}
+
 .post__link {
     grid-column: 1/-1;
     justify-self: start;
     color: #061B28;
+    background-color: #FFFFFF;
     text-align: center;
     text-decoration: none;
 }
@@ -99,6 +107,19 @@
 /* Pagination */
 
 .pagination {
+    width: 780px;
+    justify-self: center;
     display: grid;
     grid-template-columns: repeat(5, auto);
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination__link {
+    color: #061B28;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
 }

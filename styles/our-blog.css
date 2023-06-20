@@ -1,6 +1,7 @@
 /* Our-blog */
 
 .our-blog {
+    padding-top: 140px;
     display: grid;
     grid-template-rows: repeat(3, auto);
 }
@@ -9,7 +10,8 @@
 
 .posts {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 65px;
 }
 
 /* Post */
@@ -19,9 +21,20 @@
 }
 
 .post__title  {
+    margin: 0;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 22px;
     line-height: 31px;
+}
+
+.post__time {
+    margin-bottom: 20px;
+}
+
+.post__title,
+.post__time {
+    align-self: baseline;
 }
 
 .post__title-inner {
@@ -46,6 +59,10 @@
     grid-column: 1 / -1;
     display: grid;
     grid-template-rows: auto auto;
+}
+
+.post__image {
+    display: block;
 }
 
 /* Post-two */

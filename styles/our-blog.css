@@ -11,7 +11,7 @@
 .posts {
     display: grid;
     grid-template-rows: auto auto;
-    row-gap: 65px;
+    row-gap: 140px;
 }
 
 /* Post */
@@ -22,7 +22,7 @@
 
 .post__title  {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 700;
     font-size: 22px;
     line-height: 31px;
@@ -42,6 +42,11 @@
     font-size: 19px;
 }
 
+.post__text {
+    margin: 0;
+    text-align: justify;
+}
+
 /* Post-one */
 
 .post-one {
@@ -53,12 +58,14 @@
 .post-one .post__picture {
     grid-column: 1 / -1;
     justify-self: center;
+    margin-bottom: 40px;
 }
 
 .post-one .text-wrapper {
     grid-column: 1 / -1;
     display: grid;
     grid-template-rows: auto auto;
+    row-gap: 24px;
 }
 
 .post__image {

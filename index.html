@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="./styles/footer.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./scripts/slider.js"></script>
     </head>
 
     <body class="page">
@@ -90,57 +91,59 @@
 			</section>
 
 			<section class="popular-tours">
-                <div class="wrapper popular-tours-wrapper swiper-container">
+                <div class="wrapper popular-tours-wrapper">
                     <h2 class="title popular-tours__title">Популярные туры</h2>
-                    <div class="mountains swiper-wrapper">
-                        <div class="mountain mountain-one swiper-slide">
-                            <h3 class="mountain__title">Белуха</h3>
-                            <p class="mountain__country">Россия</p>
-                            <button class="mountain__button" type="button">
-                                <span class="visually-hidden">В закладки</span>
-                            </button>
-                            <div class="mountain__features">
-                                <p class="mountain__height">4506 м</p>
-                                <p class="mountain__time">12 дней</p>
-                                <p class="mountain__price">от 45000</p>
+                    <div class="swiper swiper-no-swiping">
+                        <div class="mountains swiper-wrapper">
+                            <div class="mountain mountain-one swiper__slide">
+                                <h3 class="mountain__title">Белуха</h3>
+                                <p class="mountain__country">Россия</p>
+                                <button class="mountain__button" type="button">
+                                    <span class="visually-hidden">В закладки</span>
+                                </button>
+                                <div class="mountain__features">
+                                    <p class="mountain__height">4506 м</p>
+                                    <p class="mountain__time">12 дней</p>
+                                    <p class="mountain__price">от 45000</p>
+                                </div>
+                                <p class="mountain__level">Средний уровень</p>
                             </div>
-                            <p class="mountain__level">Средний уровень</p>
-                        </div>
 
-                        <div class="mountain mountain-two swiper-slide">
-                            <h3 class="mountain__title">Эльбрус</h3>
-                            <p class="mountain__country">Россия</p>
-                            <button class="mountain__button" type="button">
-                                <span class="visually-hidden">В закладки</span>
-                            </button>
-                            <div class="mountain__features">
-                                <p class="mountain__height">5642 м</p>
-                                <p class="mountain__time">10 дней</p>
-                                <p class="mountain__price">от 25000</p>
+                            <div class="mountain mountain-two swiper__slide">
+                                <h3 class="mountain__title">Эльбрус</h3>
+                                <p class="mountain__country">Россия</p>
+                                <button class="mountain__button" type="button">
+                                    <span class="visually-hidden">В закладки</span>
+                                </button>
+                                <div class="mountain__features">
+                                    <p class="mountain__height">5642 м</p>
+                                    <p class="mountain__time">10 дней</p>
+                                    <p class="mountain__price">от 25000</p>
+                                </div>
+                                <p class="mountain__level">Средний уровень</p>
                             </div>
-                            <p class="mountain__level">Средний уровень</p>
-                        </div>
 
-                        <div class="mountain mountain-three swiper-slide">
-                            <h3 class="mountain__title">Килиманджаро</h3>
-                            <p class="mountain__country">Танзания</p>
-                            <button class="mountain__button" type="button">
-                                <span class="visually-hidden">В закладки</span>
-                            </button>
-                            <div class="mountain__features">
-                                <p class="mountain__height">5895 м</p>
-                                <p class="mountain__time">4 дня</p>
-                                <p class="mountain__price">от 55000</p>
+                            <div class="mountain mountain-three swiper__slide">
+                                <h3 class="mountain__title">Килиманджаро</h3>
+                                <p class="mountain__country">Танзания</p>
+                                <button class="mountain__button" type="button">
+                                    <span class="visually-hidden">В закладки</span>
+                                </button>
+                                <div class="mountain__features">
+                                    <p class="mountain__height">5895 м</p>
+                                    <p class="mountain__time">4 дня</p>
+                                    <p class="mountain__price">от 55000</p>
+                                </div>
+                                <p class="mountain__level">Простой уровень</p>
                             </div>
-                            <p class="mountain__level">Простой уровень</p>
                         </div>
                     </div>
 
                     <div class="buttons">
-                        <button class="buttons__previous swiper-button-prev" type="button">
+                        <button class="buttons__previous" type="button">
                             <span class="visually-hidden">Предыдущий слайд</span>
                         </button>
-                        <button class="buttons__next swiper-button-next" type="button">
+                        <button class="buttons__next" type="button">
                             <span class="visually-hidden">Следующий слайд</span>
                         </button>
                     </div>

@@ -19,12 +19,13 @@
 /* Mountains */
 
 .mountains {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    column-gap: 30px; */
 }
 
 .mountain {
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto 100px auto auto auto;

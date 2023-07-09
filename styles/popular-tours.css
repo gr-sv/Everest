@@ -18,10 +18,9 @@
 
 /* Mountains */
 
-.mountains {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px; */
+.swiper {
+    width: 100%;
+    overflow: hidden;
 }
 
 .mountain {

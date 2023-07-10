@@ -106,6 +106,33 @@
 .buttons {
     justify-self: end;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 35px 35px;
     column-gap: 25px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: static;
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgba(230, 232, 234, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 11px 7px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    background-image: url(../images/arrow-previous.svg);
+}
+
+.swiper-button-next {
+    background-image: url(../images/arrow-next.svg);
 }

@@ -143,6 +143,27 @@
     margin: 0;
 }
 
+.mountain__level::before {
+    content: '';
+    background-image: url(../images/level_middle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 12px;
+    margin-right: 6px;
+    padding-left: 12px;
+}
+
+.mountain-three .mountain__level::before {
+    content: '';
+    background-image: url(../images/level-easy.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 12px;
+    margin-right: 6px;
+    padding-left: 12px;
+}
+
+
 .buttons {
     justify-self: end;
     display: grid;

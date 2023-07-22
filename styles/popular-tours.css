@@ -72,6 +72,15 @@
     line-height: 18px;
 }
 
+.mountain__country::before {
+    content: '';
+    background-image: url(../images/point.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13px 16px;
+    padding-right: 20px;
+}
+
 .mountain__button {
     grid-area: button;
     padding: 0;

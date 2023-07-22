@@ -40,6 +40,7 @@
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: start;
+    align-items: center;
     column-gap: 30px;
 }
 
@@ -53,6 +54,7 @@
 }
 
 .navigation__icon {
+    box-sizing: border-box;
     display: block;
     padding: 11px;
     width: 35px;
@@ -64,16 +66,13 @@
 }
 
 .navigation__search {
-    display: block;
-    padding: 11px;
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    background-color: rgba(252, 252, 252, 0.40);
     background-image: url(../images/search.svg);
     background-size: 13px 13px;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+.navigation__account {
+    background-image: url(../images/personal_account.svg);
+    background-size: 11px 13px;
 }
 
 .navigation__logo {

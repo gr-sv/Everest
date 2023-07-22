@@ -78,7 +78,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 13px 16px;
-    padding-right: 20px;
+    margin-right: 7px;
+    padding-right: 13px;
 }
 
 .mountain__button {
@@ -86,6 +87,16 @@
     padding: 0;
     justify-self: end;
     align-self: start;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(252, 252, 252, 0.40);
+    background-image: url(../images/bookmark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 13px;
 }
 
 .mountain__features {

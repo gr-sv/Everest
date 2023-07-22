@@ -128,6 +128,16 @@
     padding-right: 1px;
 }
 
+.mountain__price::after {
+    content: '';
+    background-image: url(../images/ruble.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px 13px;
+    margin-left: 3px;
+    padding-left: 9px;
+}
+
 .mountain__level {
     grid-area: level;
     margin: 0;

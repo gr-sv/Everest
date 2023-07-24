@@ -58,6 +58,16 @@
     column-gap: 99px;
 }
 
+.mountains-table__cell:last-child:after {
+    content: '';
+    background-image: url(../images/ruble-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 11px 16px;
+    margin-left: 5px;
+    padding-left: 11px;
+}
+
 .mountains-table__cell {
     font-weight: 500;
     font-size: 22px;
@@ -69,4 +79,8 @@
     line-height: 25px;
     font-weight: 400;
     color: #A7AEB4;
+}
+
+.mountains-table__title:last-child::after {
+    display: none;
 }

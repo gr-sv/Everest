@@ -20,10 +20,24 @@
 .contacts__picture {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
+    position: relative;
 }
 
 .contacts__image {
     display: block;
+}
+
+.contacts__picture::before {
+    content: '';
+    background-image: url(../images/point.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 33px 40px;
+    padding-left: 33px;
+    padding-top: 40px;
+    position: absolute;
+    top: 202px;
+    left: 173px;
 }
 
 /* Address */

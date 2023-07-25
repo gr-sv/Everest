@@ -37,9 +37,25 @@
     text-decoration: none;
 }
 
+.blog-menu__link-wrapper::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    background-color: #061B28;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+.blog-menu__link-wrapper:first-child:after {
+    display: none;
+}
+
 .blog-menu__link_current {
     background-color: #061B28;
 }
+
+
 
 .blog-menu__title {
     margin: 0;

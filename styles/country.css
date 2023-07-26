@@ -55,7 +55,22 @@
 .mountains-table__row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 99px;
+    column-gap: 60px;
+    position: relative;
+}
+
+.mountains-table__row::after {
+    content: '';
+    width: 830px;
+    background-color: #45545E;
+    padding-top: 1px;
+    position: absolute;
+    top: 43px;
+    left: -100px;
+}
+
+.mountains-table__row:first-child:after {
+    top: 36px
 }
 
 .mountains-table__cell:last-child:after {

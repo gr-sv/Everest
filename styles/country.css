@@ -69,11 +69,11 @@
     left: -100px;
 }
 
-.mountains-table__row:first-child:after {
+.mountains-table__row:first-child::after {
     top: 36px
 }
 
-.mountains-table__cell:last-child:after {
+.mountains-table__cell:last-child::after {
     content: '';
     background-image: url(../images/ruble-white.svg);
     background-repeat: no-repeat;

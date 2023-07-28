@@ -102,8 +102,6 @@
     text-decoration: none;
 }
 
-
-
 /* Pagination */
 
 .pagination {
@@ -112,6 +110,7 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     justify-items: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -122,4 +121,24 @@
     background-color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+    display: block;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.pagination__previous,
+.pagination__next {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 11px 7px;
+}
+
+.pagination__previous {
+    background-image: url(../images/arrow-previous.svg);
+}
+
+.pagination__next {
+    background-image: url(../images/arrow-next.svg);
 }

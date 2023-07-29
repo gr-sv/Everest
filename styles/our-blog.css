@@ -117,7 +117,7 @@
 }
 
 .pagination__link {
-    color: #061B28;
+    color: #626F77;
     background-color: #FFFFFF;
     text-align: center;
     text-decoration: none;
@@ -128,17 +128,6 @@
     border-radius: 100%;
 }
 
-.pagination__previous,
-.pagination__next {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 11px 7px;
-}
-
-.pagination__previous {
-    background-image: url(../images/arrow-previous.svg);
-}
-
-.pagination__next {
-    background-image: url(../images/arrow-next.svg);
+.pagination__link svg path {
+    stroke: #626F77;
 }

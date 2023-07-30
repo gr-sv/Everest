@@ -46,6 +46,7 @@
 /* Mountains__table */
 
 .mountains-table {
+    width: 100%;
     display: grid;
     grid-template-rows: repeat(5, auto);
     row-gap: 25px;
@@ -53,24 +54,17 @@
 }
 
 .mountains-table__row {
+    padding-left: 99px;
+    padding-right: 99px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 60px;
-    position: relative;
+    border-bottom: 1px solid #45545E;
+    padding-bottom: 25px;
 }
 
-.mountains-table__row::after {
-    content: '';
-    width: 830px;
-    background-color: #45545E;
-    padding-top: 1px;
-    position: absolute;
-    top: 43px;
-    left: -100px;
-}
-
-.mountains-table__row:first-child::after {
-    top: 36px
+.mountains-table__row:first-child {
+    padding-bottom: 15px;
 }
 
 .mountains-table__cell:last-child::after {

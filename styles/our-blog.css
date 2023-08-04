@@ -18,11 +18,12 @@
 /* Post */
 
 .post {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding: 70px 235px 70px 235px;
     line-height: 24px;
     row-gap: 40px;
 	border-bottom: 1px solid #626F77;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
 }
 
 .post__title  {
@@ -32,11 +33,6 @@
     font-size: 52px;
     line-height: 60px;
     color: #061B28;
-}
-
-.post__title,
-.post__time {
-    align-self: baseline;
 }
 
 .post__title-inner {
@@ -52,24 +48,15 @@
 
 .post__text {
     margin: 0;
-    text-align: justify;
 }
 
 /* Post-one */
 
-.post-one {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: 1fr auto;
-}
-
 .post-one .post__picture {
-    grid-column: 1 / -1;
     justify-self: center;
 }
 
 .post-one .text-wrapper {
-    grid-column: 1 / -1;
     display: grid;
     grid-template-rows: auto auto;
 }
@@ -80,14 +67,7 @@
 
 /* Post-two */
 
-.post-two {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: 1fr auto;
-}
-
 .post-two .text-wrapper {
-    grid-column: 1/-1;
     display: grid;
     grid-template-rows: repeat(10, auto);
 }
@@ -98,7 +78,6 @@
 }
 
 .post__link {
-    grid-column: 1/-1;
     justify-self: start;
     color: #061B28;
     background-color: #FFFFFF;

@@ -51,6 +51,22 @@
     color: #fcfcfc;
     text-align: center;
     text-decoration: none;
+    position: relative;
+}
+
+.navigation__link::before {
+    content: '';
+    width: 0;
+    height: .5px;
+    background-color: #fcfcfc;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width .3s ease;
+}
+
+.navigation__link:hover::before {
+    width: 100%;
 }
 
 .navigation__icon {

@@ -62,7 +62,7 @@
     position: absolute;
     top: 52px;
     left: 0;
-    transition: width .3s ease;
+    transition: width .3s linear;
 }
 
 .navigation__link:hover::after {
@@ -83,6 +83,12 @@
     background-color: rgba(252, 252, 252, 0.40);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.navigation__icon:hover {
+	border: .5px solid #fcfcfc;
+	transform: scale(1.2);
+	transition: transform .3s linear;
 }
 
 .navigation__icon::after {

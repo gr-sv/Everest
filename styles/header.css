@@ -91,6 +91,12 @@
 	transition: transform .3s linear;
 }
 
+.navigation__icon:active {
+	border: .5px solid #fcfcfc;
+	transform: scale(.9);
+	transition: transform .3s linear;
+}
+
 .navigation__icon::after {
 	display: none;
 }

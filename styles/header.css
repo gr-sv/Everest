@@ -62,7 +62,7 @@
     position: absolute;
     top: 52px;
     left: 0;
-    transition: width .3s linear;
+    transition: .3s;
 }
 
 .navigation__link:hover::after {
@@ -71,7 +71,7 @@
 
 .navigation__link:active {
 	transform: scale(.95);
-	transition: transform .3s linear;
+	transition: .3s;
 }
 
 .navigation__phone {
@@ -93,13 +93,13 @@
 .navigation__icon:hover {
 	border: .5px solid #fcfcfc;
 	transform: scale(1.2);
-	transition: transform .3s linear;
+	transition: transform .3s;
 }
 
 .navigation__icon:active {
 	border: .5px solid #fcfcfc;
-	transform: scale(.9);
-	transition: transform .3s linear;
+	transform: scale(.95);
+	transition: transform .3s;
 }
 
 .navigation__icon::after {
@@ -150,7 +150,29 @@
     text-align: center;
     text-decoration: none;
     border: 2px solid #FCFCFC;
+	position: relative;
 }
+
+.promo__link:hover {
+	color: rgba(252, 252, 252, 0);
+}
+
+.promo__link::before {
+	content: '';
+	background-color: #FCFCFC;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: width .3s;
+	z-index: -1;
+}
+
+/* .promo__link:hover::before {
+	width: 100%;
+	transition: width .3s;
+} */
 
 /* Blog.html */
 

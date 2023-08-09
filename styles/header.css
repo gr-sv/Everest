@@ -69,6 +69,11 @@
     width: 100%;
 }
 
+.navigation__link:active {
+	transform: scale(.95);
+	transition: transform .3s linear;
+}
+
 .navigation__phone {
 	padding-bottom: 18px;
 }

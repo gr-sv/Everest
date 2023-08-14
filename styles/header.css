@@ -161,18 +161,22 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	/* z-index: -1; */
-    transition: width .3s;
+	z-index: -1;
+    transition: .3s;
 }
 
 .promo__link:hover::before {
 	width: 100%;
-
 }
 
 .promo__link:hover {
-	color: rgba(255, 255, 255, 0);
-    /* transition: .3s; */
+	color: rgba(0, 0, 0, 1);
+	mix-blend-mode: screen;
+}
+
+.promo__link:active {
+	transform: scale(.95);
+	transition: .3s;
 }
 
 /* Blog.html */

@@ -65,6 +65,11 @@
     mix-blend-mode: screen;
 }
 
+.country__link:active {
+    transform: scale(.95);
+    transition: .3s;
+}
+
 /* Mountains__table */
 
 .mountains-table {

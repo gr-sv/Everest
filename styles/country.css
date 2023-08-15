@@ -41,6 +41,28 @@
     line-height: 19px;
     text-align: center;
     text-decoration: none;
+    position: relative;
+}
+
+.country__link::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: #FCFCFC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    z-index: -1;
+}
+
+.country__link:hover::before {
+    width: 100%;
+}
+
+.country__link:hover {
+    color: rgba(0, 0, 0, 1);
+    mix-blend-mode: screen;
 }
 
 /* Mountains__table */

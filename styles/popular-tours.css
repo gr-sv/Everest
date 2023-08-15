@@ -215,3 +215,15 @@
 .swiper-button-next {
     background-image: url(../images/arrow-next.svg);
 }
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    transform: scale(1.2);
+    transition: transform .3s;
+}
+
+.swiper-button-prev:active,
+.swiper-button-next:active {
+    transform: scale(.95);
+    transition: transform .3s;
+}

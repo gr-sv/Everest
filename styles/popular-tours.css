@@ -111,6 +111,12 @@
     background-size: 10px 13px;
 }
 
+.mountain__button:hover {
+    border: .5px solid #fcfcfc;
+    transform: scale(1.2);
+    transition: transform .3s;
+}
+
 .mountain__features {
     grid-area: features;
     margin-bottom: 24px;

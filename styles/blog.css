@@ -36,6 +36,7 @@
     background-color: #FFFFFF;
     text-decoration: none;
     position: relative;
+    transition: .3s;
 }
 
 .blog-menu__link:hover {
@@ -52,6 +53,10 @@
     left: 0;
 }
 
+.blog-menu__link:active {
+    transform: scale(.95);
+}
+
 .blog-menu__link-wrapper::after {
     content: '';
     display: block;
@@ -66,7 +71,8 @@
     display: none;
 }
 
-.blog-menu__link_current {
+.blog-menu__link_current,
+.blog-menu__link_current:hover {
     background-color: #061B28;
 }
 

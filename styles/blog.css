@@ -94,7 +94,7 @@
 }
 
 .blog__link {
-    padding: 14px 125px;
+    padding: 14px 0;
     text-align: center;
     text-decoration: none;
 	align-self: start;
@@ -103,7 +103,7 @@
 }
 
 .blog__link:hover {
-    padding: 12px 123px;
+    padding: 12px 0;
 	color: #EC5118;
 	border: 2px solid #EC5118;
     mix-blend-mode: multiply;

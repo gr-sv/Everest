@@ -53,6 +53,35 @@
     margin-top: 10px;
     padding: 14px 0;
     border: none;
+    position: relative;
+}
+
+.help__button:hover {
+    padding: 12px 0;
+	color: #EC5118;
+	border: 2px solid #EC5118;
+    mix-blend-mode: lighten;
+}
+
+.help__button::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: #061B28;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .3s;
+}
+
+.help__button:hover::before {
+    width: 100%;
+}
+
+.help__button:active {
+    transform: scale(.95);
+    transition: .3s;
 }
 
 .help__note {

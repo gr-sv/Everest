@@ -77,7 +77,6 @@
 }
 
 
-
 .blog-menu__title {
     margin: 0;
     font-weight: 400;
@@ -100,6 +99,35 @@
     text-decoration: none;
 	align-self: start;
 	margin-top: 30px;
+    position: relative;
+}
+
+.blog__link:hover {
+    padding: 12px 123px;
+	color: #EC5118;
+	border: 2px solid #EC5118;
+    mix-blend-mode: multiply;
+}
+
+.blog__link::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .3s;
+}
+
+.blog__link:hover::before {
+    width: 100%;
+}
+
+.blog__link:active {
+    transform: scale(.95);
+    transition: .3s;
 }
 
 /* Posts */

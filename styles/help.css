@@ -28,6 +28,8 @@
     line-height: 27px;
 }
 
+/* Form */
+
 .help__form {
     margin-bottom: 22px;
     display: grid;
@@ -35,6 +37,8 @@
     row-gap: 35px;
     width: 525px;
 }
+
+/* Fields */
 
 .help__field {
     padding-bottom: 11px;
@@ -48,6 +52,8 @@
     border: none;
     border-bottom: 1px solid #45545E;
 }
+
+/* Button */
 
 .help__button {
     margin-top: 10px;

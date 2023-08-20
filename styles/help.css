@@ -55,6 +55,12 @@
     outline: none;
 }
 
+.help__field:focus {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7E8386;
+    transition: .1s;
+}
+
 /* Button */
 
 .help__button {

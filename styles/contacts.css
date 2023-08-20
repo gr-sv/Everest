@@ -72,6 +72,25 @@
     color: #061B28;
     text-align: center;
     text-decoration: none;
+    position: relative;
+}
+
+.address__phone .address__link::after,
+.address__mail .address__link::after
+ {
+    content: '';
+    width: 0;
+    height: .6px;
+    background-color: #061B28;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    transition: .3s;
+}
+
+.address__phone .address__link:hover::after,
+.address__mail .address__link:hover::after {
+    width: 100%;
 }
 
 .address__social {

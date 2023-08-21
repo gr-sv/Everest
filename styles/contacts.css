@@ -76,8 +76,7 @@
 }
 
 .address__phone .address__link::after,
-.address__mail .address__link::after
- {
+.address__mail .address__link::after {
     content: '';
     width: 0;
     height: .6px;
@@ -93,12 +92,12 @@
     width: 100%;
 }
 
-.address__phone .address__link:active,
-.address__mail .address__link:active {
+.address__link:active {
 	transform: scale(.95);
     transition: .3s;
 }
 
+/* Social links */
 
 .address__social {
     display: grid;
@@ -112,4 +111,44 @@
 
 .address__social .address__title {
     grid-column: 1 / -1;
+}
+
+.address__social .address__link {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: start;
+    align-items: center;
+}
+.address__social .address__link:hover {
+    transform: scale(1.1);
+	transition: transform .3s;
+}
+
+.address__social .address__link:hover::before {
+    content: '';
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.link__fb:hover::before {
+    background-color: #3b5998;
+    left: -50%;
+}
+
+.link__instagram:hover::before {
+    background-color: #e1306c;
+    left: -25%;
+}
+
+.link__twitter:hover::before {
+    background-color: #46C1F6;
+    left: -25%;
+    bottom: -50%;
+}
+
+.address__link svg path:hover {
+    fill: #FFFFFF;
 }

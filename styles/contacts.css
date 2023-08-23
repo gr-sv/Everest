@@ -152,3 +152,8 @@
 .address__link svg path:hover {
     fill: #FFFFFF;
 }
+
+.address__social .address__link:active {
+    transform: scale(.95);
+    transition: .3s;
+}

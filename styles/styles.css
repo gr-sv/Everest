@@ -107,3 +107,8 @@ body {
     color: #FCFCFC;
     text-transform: uppercase;
 }
+
+:focus-visible {
+    outline: 3px solid #6bc2de;
+    outline-offset: 2px;
+}

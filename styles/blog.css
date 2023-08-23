@@ -76,6 +76,9 @@
     background-color: #061B28;
 }
 
+.blog-menu__link:focus-visible {
+    outline-offset: 0;
+}
 
 .blog-menu__title {
     margin: 0;

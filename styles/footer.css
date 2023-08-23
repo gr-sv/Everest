@@ -16,6 +16,8 @@
     align-items: center;
 }
 
+/* Copyright */
+
 .copyright {
     justify-self: start;
     display: grid;
@@ -33,11 +35,23 @@
     text-decoration: none;
 }
 
+.copyright__link:hover {
+    text-decoration: underline;
+}
+
+.copyright__link:active {
+    transform: scale(.95);
+    transition: .3s;
+    color: #E6E8EA;
+}
+
 .copyright__text {
     grid-column: 2 / -1;
     grid-row: 2 / 3;
     margin: 0;
 }
+
+/* Navigation */
 
 .footer-navigation {
     justify-self: center;
@@ -46,6 +60,8 @@
 .footer-navigation__link {
     text-decoration: none;
 }
+
+/* Politics */
 
 .politics {
     justify-self: end;

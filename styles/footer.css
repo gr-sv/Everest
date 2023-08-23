@@ -16,6 +16,16 @@
     align-items: center;
 }
 
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-link:active {
+    transform: scale(.95);
+    transition: .3s;
+    color: #E6E8EA;
+}
+
 /* Copyright */
 
 .copyright {
@@ -35,16 +45,6 @@
     text-decoration: none;
 }
 
-.copyright__link:hover {
-    text-decoration: underline;
-}
-
-.copyright__link:active {
-    transform: scale(.95);
-    transition: .3s;
-    color: #E6E8EA;
-}
-
 .copyright__text {
     grid-column: 2 / -1;
     grid-row: 2 / 3;
@@ -58,6 +58,7 @@
 }
 
 .footer-navigation__link {
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -68,6 +69,7 @@
 }
 
 .politics__link {
+    display: inline-block;
     color: #FCFCFC;
     text-align: center;
     text-decoration: none;

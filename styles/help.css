@@ -72,7 +72,6 @@
 
 .help__button:hover {
     padding: 12px 0;
-	color: #FCFCFC;
 	border: 2px solid #EC5118;
     mix-blend-mode: lighten;
 }

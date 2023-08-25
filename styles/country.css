@@ -42,6 +42,7 @@
     text-align: center;
     text-decoration: none;
     position: relative;
+    transition: color .3s ease-in-out, mix-blend-mode .3s ease-in-out;
 }
 
 .country__link::before {

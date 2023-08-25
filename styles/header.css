@@ -151,6 +151,7 @@
     text-decoration: none;
     border: 2px solid #FCFCFC;
 	position: relative;
+    transition: color .3s ease-in-out, mix-blend-mode .3s ease-in-out;
 }
 
 .promo__link::before {

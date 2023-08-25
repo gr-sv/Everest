@@ -103,6 +103,7 @@
 	align-self: start;
 	margin-top: 30px;
     position: relative;
+    transition: color .3s ease-in-out, mix-blend-mode .3s ease-in-out;
 }
 
 .blog__link:hover {

@@ -115,6 +115,10 @@
     align-items: center;
 }
 
+.mountain__button svg path {
+    fill: black;
+}
+
 .mountain__button:hover {
     border: .5px solid #fcfcfc;
     transform: scale(1.1);

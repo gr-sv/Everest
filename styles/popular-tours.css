@@ -105,11 +105,14 @@
     border: none;
     border-radius: 100%;
     background-color: rgba(252, 252, 252, 0.40);
-    background-image: url(../images/bookmark.svg);
+    /* background-image: url(../images/bookmark.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 10px 13px;
+    background-size: 10px 13px; */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mountain__button:hover {

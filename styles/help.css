@@ -53,6 +53,11 @@
     border: none;
     border-bottom: 1px solid #45545E;
     outline: none;
+    transition: .3s;
+}
+
+.help__field:hover {
+    letter-spacing: 2px;
 }
 
 .help__field:focus {

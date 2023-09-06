@@ -116,8 +116,10 @@
     justify-items: center;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style: none;
+    border: 1px solid rgba(230, 232, 234, 1);
+    border-radius: 25px;
 }
 
 .pagination__link {
@@ -131,6 +133,11 @@
     width: 24px;
     height: 24px;
     border-radius: 100%;
+}
+
+.pagination__link_current {
+    color: #FFFFFF;
+    background-color: #626F77;
 }
 
 .pagination__link svg path {

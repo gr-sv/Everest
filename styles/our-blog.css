@@ -83,6 +83,27 @@
     background-color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+    position: relative;
+}
+
+.post__link::after {
+    content: '';
+    width: 0;
+    height: .5px;
+    background-color: #061B28;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: .3s;
+}
+
+.post__link:hover::after {
+    width: 100%;
+}
+
+.post__link:active {
+    transform: scale(.95);
+    transition: .3s;
 }
 
 /* Pagination */

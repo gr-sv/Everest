@@ -16,14 +16,17 @@
     align-items: center;
 }
 
+.footer-link {
+    transition: .3s;
+}
+
 .footer-link:hover {
-    text-decoration: underline;
+    color: rgba(230, 232, 234, 0.5);
 }
 
 .footer-link:active {
     transform: scale(.95);
     transition: .3s;
-    color: #E6E8EA;
 }
 
 /* Copyright */

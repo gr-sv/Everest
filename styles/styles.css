@@ -72,3 +72,15 @@ body {
     outline: 3px solid #6bc2de;
     outline-offset: 2px;
 }
+
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .logo {
+        font-size: 27px;
+        line-height: 39px;
+    }
+}

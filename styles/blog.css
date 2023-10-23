@@ -172,3 +172,19 @@
 .paragraph-one {
     margin-bottom: 24px;
 }
+
+@media only screen and (max-width: 992px) {
+    .blog-menu__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .post__title  {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .post__text {
+        line-height: 29px;
+    }
+}

@@ -79,6 +79,16 @@ body {
         line-height: 24px;
     }
 
+    .button_orange {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .time {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
     .logo {
         font-size: 29px;
         line-height: 41px;

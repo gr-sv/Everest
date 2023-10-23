@@ -179,6 +179,10 @@
         line-height: 30px;
     }
 
+    .blog-menu__link {
+        padding: 35px 30px;
+    }
+
     .post__title  {
         font-size: 27px;
         line-height: 36px;

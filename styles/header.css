@@ -131,6 +131,14 @@
 }
 
 @media only screen and (min-width: 769px) {
+    .burger-checkbox {
+        display: none;
+    }
+
+    .burger-label {
+        display: none;
+    }
+
     .burger-menu {
         display: none;
     }

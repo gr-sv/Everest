@@ -19,7 +19,13 @@
 
 .navigation {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
+    column-gap: 89px;
+}
+
+.navigation-burger {
+    display: grid;
+    grid-template-columns: 1fr auto;
     column-gap: 89px;
 }
 

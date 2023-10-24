@@ -130,7 +130,7 @@
     }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 769px) {
     .burger-menu {
         display: none;
     }

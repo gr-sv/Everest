@@ -33,6 +33,37 @@
     align-self: center;
 }
 
+@media only screen and (max-width: 1400px) {
+	.about-us-wrapper {
+    	padding: 0;
+	}
+}
+
+@media only screen and (max-width: 1290px) {
+	.about-us-wrapper {
+        justify-self: center;
+        width: 815px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+        row-gap: 27px;
+    }
+
+    .about-us__picture {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        align-self: center;
+    }
+
+    .about-us__title {
+        text-align: center;
+    }
+
+    .about-us__text {
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 992px) {
     .about-us__text {
         width: 465px;

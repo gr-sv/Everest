@@ -31,6 +31,7 @@ body {
 
 .wrapper {
     width: 1170px;
+    box-sizing: border-box;
 }
 
 .title {
@@ -75,8 +76,8 @@ body {
 
 @media only screen and (max-width: 1200px) {
     .wrapper {
-        max-width: 100%;
-        padding: 0 10px;
+        width: 100%;
+        padding: 0 20px;
     }
 }
 

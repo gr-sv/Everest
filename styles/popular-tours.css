@@ -232,7 +232,7 @@
     transition: transform .3s;
 }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
     .mountain {
         grid-template-areas:
         "country  button"
@@ -291,4 +291,4 @@
     .swiper-button-next {
         transform: scale(1.5);
     }
-}
+} */

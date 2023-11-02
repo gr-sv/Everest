@@ -142,7 +142,7 @@
     transition: .3s;
 }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
     .address {
         width: 450px;
         row-gap: 20px;
@@ -165,4 +165,4 @@
     .address__social .address__link {
         transform: scale(1.5);
     }
-}
+} */

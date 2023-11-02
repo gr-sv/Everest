@@ -78,9 +78,9 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
     .footer {
         font-size: 17px;
         line-height: 21px;
     }
-}
+} */

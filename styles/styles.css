@@ -76,14 +76,14 @@ body {
 
 @media only screen and (max-width: 1200px) {
     .wrapper {
-        width: 100%;
+        width: 100vw;
         padding-left: 15px;
         padding-right: 15px;
         box-sizing: border-box;
     }
 }
 
-/* @media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 1024px) {
     body {
         font-size: 21px;
         line-height: 24px;

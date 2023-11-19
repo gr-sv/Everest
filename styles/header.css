@@ -195,7 +195,7 @@
         display: block;
         position: absolute;
         top: 0;
-        left: 211px;
+        left: 190px;
         max-height: 0;
         overflow: hidden;
         transition: .5s ease;
@@ -216,6 +216,16 @@
 
     #check-menu:checked ~ .burger-menu .line-third {
         transform: rotate(-45deg);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation {
+        column-gap: 40px;
+    }
+
+    .navigation-burger {
+        left: 141px;
     }
 }
 

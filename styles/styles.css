@@ -83,6 +83,7 @@ body {
     }
 }
 
+/* Пока не использовать, требует проверки */
 /* @media only screen and (max-width: 1024px) {
     body {
         font-size: 21px;

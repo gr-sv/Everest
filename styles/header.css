@@ -213,6 +213,7 @@
 
     #check-menu:checked ~ .burger-menu .line-second {
         transform: rotate(45deg);
+
     }
 
     #check-menu:checked ~ .burger-menu .line-third {
@@ -236,25 +237,17 @@
     }
 
     .navigation-burger {
+		width: 0;
+		max-height: 500px;
+		padding: 84px 0 30px 0;
         background-color: #061B28;
+		font-size: 0;
         top: -30px;
         left: -15px;
         z-index: 2;
-
     }
 
-    .navigation__link {
-        padding-left: 0;
-        text-align: left;
-    }
-
-    #check-menu:checked ~ .navigation-burger {
-        max-height: 500px;
-        width: 100%;
-        padding: 84px 15px 30px 15px;
-    }
-
-    .navigation__list-one {
+	 .navigation__list-one {
         grid-template-columns: auto;
         grid-template-rows:repeat(5, auto);
     }
@@ -266,8 +259,21 @@
         row-gap: 17px;
     }
 
-    .navigation__list-two .navigation__item:first-child {
+	.navigation__list-two .navigation__item:first-child {
         grid-column: 1 / -1;
+    }
+
+    .navigation__link {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    #check-menu:checked ~ .navigation-burger {
+		max-height: 500px;
+        width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 16px;
     }
 }
 

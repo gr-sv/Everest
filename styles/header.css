@@ -127,16 +127,6 @@
     padding: 9px 0;
 }
 
-/* @media only screen and (max-width: 1024px) {
-    .navigation__search {
-        transform: scale(1.4);
-    }
-
-    .navigation__account {
-        transform: scale(1.4);
-    }
-} */
-
 @media only screen and (min-width: 1025px) {
     .burger-checkbox {
         display: none;
@@ -329,6 +319,20 @@
 .promo__link:active {
 	transform: scale(.95);
 	transition: .3s;
+}
+
+@media only screen and (max-width: 480px) {
+    .promo__title {
+        font-size: 89px;
+        line-height: 137px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .promo__title {
+        font-size: 80px;
+        line-height: 130px;
+    }
 }
 
 /* Blog.html */

@@ -232,63 +232,8 @@
     transition: transform .3s;
 }
 
-/* @media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
     .mountain {
-        grid-template-areas:
-        "country  button"
-        ".        ."
-        "title    ."
-        "features features"
-        "level    level";
-        font-size: 23px;
-        line-height: 26px;
+        padding: 20px;
     }
-
-    .mountain__country {
-        font-size: 21px;
-        line-height: 23px;
-    }
-
-    .mountain__country::before {
-        background-size: 18px 21px;
-        padding-right: 18px;
-    }
-
-    .mountain__button {
-        transform: scale(1.5);
-    }
-
-    .mountain__title {
-        font-size: 31px;
-        line-height: 35px;
-    }
-
-    .mountain__time::before,
-    .mountain__price::before {
-        margin-right: 4px;
-    }
-
-    .mountain-three .mountain__time::before,
-    .mountain-three .mountain__price::before {
-        margin-right: 7px;
-    }
-
-    .mountain__level::before {
-        background-size: 17px 17px;
-        padding-left: 17px;
-    }
-
-    .mountain-three .mountain__level::before {
-        background-size: 17px 17px;
-        padding-left: 17px;
-    }
-
-    .buttons {
-        column-gap: 37px;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-        transform: scale(1.5);
-    }
-} */
+}

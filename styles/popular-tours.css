@@ -234,6 +234,51 @@
 
 @media only screen and (max-width: 1200px) {
     .mountain {
-        padding: 20px;
+        padding: 30px;
     }
+
+	.mountain__features {
+		column-gap: 10px;
+	}
+}
+
+@media only screen and (max-width: 1133px) {
+	.mountain {
+		grid-template-areas:
+        "country  button"
+        ".        ."
+        "title    ."
+        "features features"
+        "level    .";
+	}
+}
+
+@media only screen and (max-width: 1028px) {
+	.mountain {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 968px) {
+    .mountain {
+        grid-template-areas:
+            "country  button"
+            ".        ."
+            "title    ."
+            "features ."
+            "level    .";
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mountain {
+        grid-template-areas:
+            "country  button"
+            "title    ."
+            "features features"
+            "level    .";
+        padding: 10px;
+    }
+
 }

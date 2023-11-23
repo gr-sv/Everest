@@ -13,6 +13,7 @@
 
 .popular-tours__title {
     margin-bottom: 40px;
+	text-align: center;
     justify-self: center;
 }
 
@@ -272,13 +273,36 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.swiper {
+		width: 345px;
+	}
+
+    .mountain {
+        grid-template-areas:
+            "country  button"
+			".        ."
+            "title    ."
+            "features features"
+            "level    .";
+        padding: 30px;
+    }
+
+	.buttons {
+		justify-self: center;
+	}
+}
+
+@media only screen and (max-width: 374px) {
+	.swiper {
+		width: 100%;
+	}
+
     .mountain {
         grid-template-areas:
             "country  button"
             "title    ."
             "features features"
             "level    .";
-        padding: 10px;
+        padding: 15px;
     }
-
 }

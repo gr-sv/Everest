@@ -237,10 +237,6 @@
     .mountain {
         padding: 30px;
     }
-
-	.mountain__features {
-		column-gap: 10px;
-	}
 }
 
 @media only screen and (max-width: 1133px) {
@@ -251,16 +247,15 @@
         "title    ."
         "features features"
         "level    .";
+        padding: 20px;
 	}
 }
 
-@media only screen and (max-width: 1028px) {
-	.mountain {
-		padding: 20px;
-	}
-}
+@media only screen and (max-width: 1025px) {
+    .swiper {
+        max-width: 771px;
+    }
 
-@media only screen and (max-width: 968px) {
     .mountain {
         grid-template-areas:
             "country  button"
@@ -270,11 +265,13 @@
             "level    .";
         padding: 40px;
     }
+
+	.buttons {
+		justify-self: center;
+	}
 }
 
-@media only screen and (max-width: 768px) {
-
-
+@media only screen and (max-width: 800px) {
     .mountain {
         grid-template-areas:
             "country  button"
@@ -284,10 +281,18 @@
             "level    .";
         padding: 30px;
     }
+}
 
-	.buttons {
-		justify-self: center;
-	}
+@media only screen and (max-width: 768px) {
+    .mountain {
+        grid-template-areas:
+            "country  button"
+            ".        ."
+            "title    ."
+            "features features"
+            "level    .";
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width: 714px) {
@@ -315,7 +320,6 @@
         padding: 30px;
     }
 }
-
 
 
 @media only screen and (max-width: 374px) {

@@ -20,12 +20,12 @@ const swiper = new Swiper('.swiper', {
             spaceBetween: 25
         },
 
-        850: {
+        801: {
             slidesPerView: 2,
-            spaceBetween: 50
+            spaceBetween: 31
         },
 
-        969: {
+        1025: {
             slidesPerView: 3
         }
     }

@@ -122,20 +122,22 @@
     display: none;
 }
 
-/* @media only screen and (max-width: 992px) {
-    .country__text {
-        width: 300px;
-        font-size: 23px;
-        line-height: 30px;
+@media only screen and (max-width: 829px) {
+    .country-wrapper {
+        width: 100vw;
     }
 
-    .mountains-table__title {
-        font-size: 23px;
-        line-height: 30px;
+    .mountains-table {
+        width: 90%;
     }
 
-    .country__link {
-        font-size: 21px;
-        line-height: 24px;
+    .mountains-table__row {
+        padding-left: 50px;
+        padding-right: 50px;
     }
-} */
+
+    .mountains-table__cell {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

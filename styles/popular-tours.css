@@ -272,17 +272,15 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
-	.swiper {
-		width: 345px;
-	}
+@media only screen and (max-width: 768px) {
+
 
     .mountain {
         grid-template-areas:
             "country  button"
-			".        ."
+            ".        ."
             "title    ."
-            "features features"
+            "features ."
             "level    .";
         padding: 30px;
     }
@@ -291,6 +289,34 @@
 		justify-self: center;
 	}
 }
+
+@media only screen and (max-width: 714px) {
+	.swiper {
+		width: 389px;
+	}
+
+    .mountain {
+        grid-template-areas:
+            "country  button"
+			".        ."
+            "title    ."
+            "features ."
+            "level    .";
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .swiper {
+		width: 345px;
+	}
+
+    .mountain {
+        padding: 30px;
+    }
+}
+
+
 
 @media only screen and (max-width: 374px) {
 	.swiper {

@@ -142,7 +142,12 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+    .country {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
     .mountains-table__row {
         padding-left: 40px;
         padding-right: 40px;
@@ -190,11 +195,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .country {
-        font-size: 15px;
-        line-height: 20px;
-    }
-
     .mountains-table__row {
         padding-left: 15px;
         padding-right: 15px;

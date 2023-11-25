@@ -83,25 +83,9 @@ body {
     }
 }
 
-/* Пока не использовать, требует проверки */
-/* @media only screen and (max-width: 1024px) {
-    body {
-        font-size: 21px;
-        line-height: 24px;
+@media only screen and (max-width: 480px) {
+    .title {
+        font-size: 40px;
+        line-height: 48px;
     }
-
-    .button_orange {
-        font-size: 21px;
-        line-height: 27px;
-    }
-
-    .time {
-        font-size: 19px;
-        line-height: 25px;
-    }
-
-    .logo {
-        font-size: 29px;
-        line-height: 41px;
-    }
-} */
+}

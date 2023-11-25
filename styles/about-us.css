@@ -70,6 +70,11 @@
         box-sizing: border-box;
     }
 
+    .about-us__text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
     .about-us__image {
         width: 100%;
         height: auto;

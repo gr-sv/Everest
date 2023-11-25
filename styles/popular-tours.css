@@ -318,6 +318,13 @@
 
     .mountain {
         padding: 30px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .mountain__country {
+        font-size: 15px;
+        line-height: 18px;
     }
 }
 

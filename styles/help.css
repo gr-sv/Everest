@@ -8,7 +8,7 @@
 }
 
 .help-wrapper {
-    margin-right: 60px;
+    padding-right: 60px;
     width: 525px;
     justify-self: end;
     align-self: center;
@@ -35,7 +35,7 @@
     display: grid;
     grid-template-rows: repeat(4, auto);
     row-gap: 35px;
-    width: 525px;
+    width: 100%;
 }
 
 /* Fields */
@@ -48,7 +48,7 @@
     line-height: 24px;
     color: #7E8386;
     background-color: #061B28;
-    width: 525px;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     border-bottom: 1px solid #45545E;
@@ -113,20 +113,23 @@
     width: 100%;
 }
 
-/* @media only screen and (max-width: 992px) {
-    .help__text {
-        font-size: 21px;
-        line-height: 32px;
+/* Picture */
+
+.help__image {
+    display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+    .help-wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 15px;
     }
 
-    .help__field {
-        font-size: 21px;
-        line-height: 29px;
-    }
 
-    .help__note {
-        width: 450px;
-        font-size: 19px;
-        line-height: 25px;
+    .help__image {
+        width: 100%;
+        height: auto;
     }
-} */
+}

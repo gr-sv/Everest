@@ -123,10 +123,22 @@
     .help-wrapper {
         box-sizing: border-box;
         width: 100%;
+        max-width: 525px;
         padding-right: 30px;
         padding-left: 15px;
     }
 
+    .help__title {
+        margin-bottom: 20px;
+    }
+
+    .help__text {
+        margin-bottom: 20px;
+    }
+
+    .help__form {
+        row-gap: 20px;
+    }
 
     .help__image {
         width: 100%;

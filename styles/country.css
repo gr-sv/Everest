@@ -148,6 +148,10 @@
         line-height: 20px;
     }
 
+    .country__text {
+        max-width: 200px;
+    }
+
     .mountains-table__row {
         padding-left: 40px;
         padding-right: 40px;
@@ -162,6 +166,11 @@
     .mountains-table__cell:last-child::after {
         background-size: 8px 13px;
         padding-left: 8px;
+    }
+
+    .country__link {
+        font-size: 13px;
+        line-height: 16px;
     }
 }
 
@@ -183,11 +192,6 @@
         padding-bottom: 15px;
     }
 
-    .mountains-table__cell {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
     .mountains-table__cell:last-child::after {
         background-size: 7px 11px;
         padding-left: 8px;
@@ -202,9 +206,9 @@
         padding-bottom: 15px;
     }
 
-    .country__link {
+    .mountains-table__cell {
         font-size: 13px;
-        line-height: 16px;
+        line-height: 20px;
     }
 }
 

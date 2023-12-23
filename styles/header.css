@@ -321,14 +321,14 @@
 	transition: .3s;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .promo__title {
         font-size: 89px;
         line-height: 137px;
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
     .promo__title {
         font-size: 80px;
         line-height: 130px;
@@ -346,14 +346,14 @@
     color: #FCFCFC;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .blog-page__title {
         font-size: 89px;
         line-height: 137px;
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
     .blog-page__title {
         font-size: 80px;
         line-height: 130px;

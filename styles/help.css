@@ -125,7 +125,7 @@
         width: 100%;
         max-width: 525px;
         padding-right: 30px;
-        padding-left: 15px;
+        padding-left: 30px;
     }
 
     .help__title {
@@ -144,4 +144,14 @@
         width: 100%;
         height: auto;
     }
+}
+
+@media only screen and (max-width: 1100px) {
+	.help-wrapper {
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
 }

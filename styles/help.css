@@ -146,12 +146,44 @@
     }
 }
 
-@media only screen and (max-width: 1100px) {
-	.help-wrapper {
-		padding-right: 15px;
-	}
-}
-
 @media only screen and (max-width: 1024px) {
+    .help__picture {
+        overflow-x: hidden;
+    }
 
+    .help__image {
+        width: auto;
+        height: 100%;
+    }
 }
+
+
+    /* .help {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+        } */
+
+    /* .help__title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .help__text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .help__field {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .help__button {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .help__note {
+        font-size: 11px;
+        line-height: 17px;
+    } */

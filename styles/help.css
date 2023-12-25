@@ -179,18 +179,21 @@
     }
 }
 
-/* .help {
-            grid-template-columns: 1fr;
-            grid-template-rows: auto auto;
-			justify-items: center;
-        }
+@media only screen and (max-width: 683px) {
+	.help {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+		row-gap: 30px;
+		justify-items: center;
+    }
 
 	.help-wrapper {
 		justify-self: center;
+		padding-top: 30px;
 	}
 
 	.help__image {
 		width: 100%;
 		height: auto;
-	} */
-
+	}
+}

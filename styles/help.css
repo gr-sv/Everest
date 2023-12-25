@@ -158,10 +158,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.help {
-		/* grid-template-columns: 50% 1fr; */
-	}
-
     .help__text {
         font-size: 15px;
         line-height: 24px;

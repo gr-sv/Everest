@@ -157,16 +157,10 @@
     }
 }
 
-
-    /* .help {
-            grid-template-columns: 1fr;
-            grid-template-rows: auto auto;
-        } */
-
-    /* .help__title {
-        font-size: 40px;
-        line-height: 48px;
-    }
+@media only screen and (max-width: 768px) {
+	.help {
+		/* grid-template-columns: 50% 1fr; */
+	}
 
     .help__text {
         font-size: 15px;
@@ -178,12 +172,25 @@
         line-height: 21px;
     }
 
-    .help__button {
-        font-size: 13px;
-        line-height: 19px;
-    }
-
     .help__note {
+		width: 100%;
         font-size: 11px;
         line-height: 17px;
-    } */
+    }
+}
+
+/* .help {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+			justify-items: center;
+        }
+
+	.help-wrapper {
+		justify-self: center;
+	}
+
+	.help__image {
+		width: 100%;
+		height: auto;
+	} */
+

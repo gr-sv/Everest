@@ -166,6 +166,11 @@
         height: auto;
     }
 
+    .contacts__picture::before {
+        top: 190px;
+        left: 164px;
+    }
+
     .address {
         width: 100%;
         grid-template-columns: 1fr auto;
@@ -191,10 +196,36 @@
         justify-items: center;
     }
 
+    .contacts__picture::before {
+        top: 149px;
+        left: 133px;
+    }
+
     .address {
         grid-template-columns: auto;
         grid-template-rows: repeat(4, auto);
         column-gap: 15px;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .contacts__picture::before {
+        top: 119px;
+        left: 109px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .contacts__picture::before {
+        top: 99px;
+        left: 93px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .contacts__picture::before {
+        top: 77px;
+        left: 76px;
     }
 }

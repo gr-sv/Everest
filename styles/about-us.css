@@ -81,6 +81,14 @@
         padding-top: 70px;
     }
 
+    .about-us-wrapper {
+        row-gap: 15px;
+    }
+
+    .about-us__title {
+        margin-bottom: 10px;
+    }
+
     .about-us__text {
         font-size: 15px;
         line-height: 24px;

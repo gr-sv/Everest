@@ -157,7 +157,7 @@
         height: 2px;
         background-color: #FCFCFC;
         position: absolute;
-        top: 15px;
+        top: 11px;
         right: 0;
         transition: .5s;
         z-index: 4;
@@ -165,18 +165,18 @@
 
     .line-second,
     .line-third {
-        top: 29px;
+        top: 25px;
     }
 
     .line-fourth {
-        top: 44px;
+        top: 40px;
     }
 
     .burger-label {
         width: 40px;
         height: 41px;
         position: absolute;
-        top: 15px;
+        top: 6px;
         right: 0;
         cursor: pointer;
         z-index: 5;
@@ -322,6 +322,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .promo {
+        padding-top: 85px;
+        padding-bottom: 102px;
+            }
+
     .promo__title {
         font-size: 89px;
         line-height: 137px;

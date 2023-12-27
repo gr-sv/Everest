@@ -146,10 +146,22 @@
     .country {
         font-size: 15px;
         line-height: 20px;
+        padding-top: 48px;
+        padding-bottom: 50px;
+    }
+
+    .country__title {
+        margin-bottom: 11px;
     }
 
     .country__text {
         max-width: 200px;
+        margin-bottom: 27px;
+    }
+
+    .mountains-table {
+        row-gap: 15px;
+        margin-bottom: 25px;
     }
 
     .mountains-table__row {

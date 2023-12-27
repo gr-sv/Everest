@@ -284,6 +284,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .popular-tours-wrapper {
+        row-gap: 20px;
+    }
+
+    .popular-tours__title {
+        margin-bottom: 20px;
+    }
+
     .mountain {
         grid-template-areas:
             "country  button"

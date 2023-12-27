@@ -5,3 +5,9 @@
     grid-template-rows: repeat(6, auto);
     row-gap: 130px;
 }
+
+@media only screen and (max-width: 768px) {
+    .page-main {
+        row-gap: 65px;
+    }
+}

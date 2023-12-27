@@ -163,9 +163,14 @@
         line-height: 24px;
     }
 
+    .help__form {
+        row-gap: 15px;
+    }
+
     .help__field {
         font-size: 13px;
         line-height: 21px;
+        padding-bottom: 5px;
     }
 
     .help__note {

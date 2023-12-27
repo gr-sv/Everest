@@ -184,9 +184,14 @@
         padding-bottom: 70px;
     }
 
+    .contacts-wrapper {
+        row-gap: 20px;
+    }
+
     .address__title {
         font-size: 15px;
         line-height: 24px;
+        margin-bottom: 5px;
     }
 
     .address__text {

@@ -209,7 +209,11 @@
     }
 
     .blog__title {
-        margin-bottom: 36px;
+        margin-bottom: 15px;
+    }
+
+    .blog-menu__link {
+        padding: 22px 20px;
     }
 
     .blog-menu__link-wrapper {
@@ -224,10 +228,23 @@
     .post__title  {
         font-size: 19px;
         line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .post__time {
+        margin-bottom: 10px;
+    }
+
+    .post__picture {
+        margin-bottom: 20px;
     }
 
     .post__text {
         font-size: 13px;
         line-height: 21px;
+    }
+
+    .paragraph-one {
+        margin-bottom: 12px;
     }
 }

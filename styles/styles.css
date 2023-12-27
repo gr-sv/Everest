@@ -103,4 +103,9 @@ body {
         font-size: 12px;
         line-height: 18px;
     }
+
+    .logo {
+        font-size: 21px;
+        line-height: 33px;
+    }
 }

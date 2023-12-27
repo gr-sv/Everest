@@ -78,9 +78,26 @@
     text-decoration: none;
 }
 
-/* @media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     .footer {
-        font-size: 17px;
-        line-height: 21px;
+        font-size: 9px;
+        line-height: 15px;
     }
-} */
+}
+
+@media only screen and (max-width: 510px) {
+    .footer-wrapper {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 10px;
+    }
+
+    .copyright {
+        grid-row: 3 / -1;
+        justify-self: center;
+    }
+
+    .politics {
+        justify-self: center;
+    }
+}

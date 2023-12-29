@@ -219,6 +219,11 @@
     .navigation-burger {
         left: 141px;
     }
+
+    .navigation__link {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
 }
 
 @media only screen and (max-width: 660px) {
